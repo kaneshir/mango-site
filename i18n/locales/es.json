@@ -74,14 +74,14 @@
     "name": "Nombre",
     "namePlaceholder": "Tu nombre",
     "email": "Correo Electrónico",
-    "emailPlaceholder": "tu@ejemplo.com",
+    "emailPlaceholder": "tu{'@'}ejemplo.com",
     "message": "Mensaje",
     "messagePlaceholder": "Cuéntame sobre tu proyecto...",
     "send": "Enviar Mensaje",
     "sending": "Enviando...",
     "success": "¡Mensaje Enviado!",
     "successSub": "Te responderé pronto.",
-    "error": "Algo salió mal. Por favor escríbeme directamente a derek@mangosoft.co",
+    "error": "Algo salió mal. Por favor escríbeme directamente a derek{'@'}mangosoft.co",
     "directEmail": "O escríbeme directamente a"
   },
   "footer": {
