@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 </script>
 
 <template>
@@ -18,24 +19,23 @@
 
         <!-- Headline -->
         <h1 class="text-5xl md:text-7xl font-extrabold mb-6 text-balance">
-          <span class="gradient-text">AI-Powered Development</span>
+          <span class="gradient-text">{{ t('hero.title1') }}</span>
           <br />
-          <span class="text-white">for the Modern Era</span>
+          <span class="text-white">{{ t('hero.title2') }}</span>
         </h1>
 
         <!-- Subhead -->
         <p class="text-xl md:text-2xl text-slate-300 mb-10 max-w-2xl mx-auto text-balance">
-          25+ years of enterprise experience meets cutting-edge AI.
-          Production-grade platforms delivered in months, not years.
+          {{ t('hero.subtitle') }}
         </p>
 
         <!-- CTAs -->
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="#contact" class="btn-primary">
-            Let's Talk
+            {{ t('hero.cta') }}
           </a>
           <a href="#portfolio" class="btn-secondary">
-            See My Work
+            {{ t('hero.seeWork') }}
           </a>
         </div>
 
@@ -43,19 +43,19 @@
         <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">25+</div>
-            <div class="text-slate-400 text-sm mt-1">Years Experience</div>
+            <div class="text-slate-400 text-sm mt-1">{{ t('hero.stats.years') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">500K+</div>
-            <div class="text-slate-400 text-sm mt-1">Patients Served</div>
+            <div class="text-slate-400 text-sm mt-1">{{ t('hero.stats.patients') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">3</div>
-            <div class="text-slate-400 text-sm mt-1">Platforms in 6 Months</div>
+            <div class="text-slate-400 text-sm mt-1">{{ t('hero.stats.platforms') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">30+</div>
-            <div class="text-slate-400 text-sm mt-1">Engineers Led</div>
+            <div class="text-slate-400 text-sm mt-1">{{ t('hero.stats.engineers') }}</div>
           </div>
         </div>
       </div>

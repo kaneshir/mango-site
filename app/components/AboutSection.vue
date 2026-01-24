@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const { t } = useI18n()
+
 const highlights = [
   { label: 'Zimmer Biomet', role: 'Principal Engineer', detail: 'API serving 500K+ patients' },
   { label: 'Banfield', role: 'Sr. Manager, Engineering', detail: '30 engineers, 750+ hospitals' },
@@ -19,25 +21,14 @@ const highlights = [
         <!-- Content -->
         <div class="min-w-0">
           <h2 class="text-4xl md:text-5xl font-bold mb-8">
-            Building the <span class="gradient-text">Future</span>
+            {{ t('about.title') }} <span class="gradient-text">{{ t('about.titleHighlight') }}</span>
           </h2>
 
           <div class="space-y-6 text-slate-300 text-lg leading-relaxed">
-            <p>
-              I'm Derek Kaneshiro—a software engineer with 25+ years of experience who's gone all-in on AI-powered development. Not as a buzzword, but as a fundamental shift in how great software gets built.
-            </p>
-
-            <p>
-              My background spans healthcare systems serving half a million patients, veterinary platforms powering 750+ hospitals, and digital signage networks across the nation. I've managed teams of 30 engineers and architected systems that are still running a decade later.
-            </p>
-
-            <p>
-              Now I'm proving what's possible when deep experience meets AI-first development. In the last 6 months, I've shipped three production-grade platforms—each with mobile apps, web portals, APIs, payments, and analytics. That's not hype. That's the new reality.
-            </p>
-
-            <p class="text-mango-orange font-semibold">
-              I help companies who want that same velocity without sacrificing quality.
-            </p>
+            <p>{{ t('about.p1') }}</p>
+            <p>{{ t('about.p2') }}</p>
+            <p>{{ t('about.p3') }}</p>
+            <p class="text-mango-orange font-semibold">{{ t('about.p4') }}</p>
           </div>
 
           <!-- Experience highlights -->
@@ -57,11 +48,11 @@ const highlights = [
         <!-- Visual / Tech Stack -->
         <div class="relative min-w-0">
           <div class="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-8">
-            <h3 class="text-xl font-bold mb-6 gradient-text">Tech Stack</h3>
+            <h3 class="text-xl font-bold mb-6 gradient-text">{{ t('about.techStack') }}</h3>
 
             <div class="space-y-5">
               <div>
-                <div class="text-sm text-slate-500 mb-2 font-medium">Frontend</div>
+                <div class="text-sm text-slate-500 mb-2 font-medium">{{ t('about.frontend') }}</div>
                 <div class="flex flex-wrap gap-2 items-center">
                   <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Flutter</span>
                   <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Nuxt 3</span>
@@ -71,7 +62,7 @@ const highlights = [
               </div>
 
               <div>
-                <div class="text-sm text-slate-500 mb-2 font-medium">Backend</div>
+                <div class="text-sm text-slate-500 mb-2 font-medium">{{ t('about.backend') }}</div>
                 <div class="flex flex-wrap gap-2 items-center">
                   <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">NestJS</span>
                   <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">.NET</span>
@@ -82,7 +73,7 @@ const highlights = [
               </div>
 
               <div>
-                <div class="text-sm text-slate-500 mb-2 font-medium">Blockchain</div>
+                <div class="text-sm text-slate-500 mb-2 font-medium">{{ t('about.blockchain') }}</div>
                 <div class="flex flex-wrap gap-2 items-center">
                   <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Sui Move</span>
                   <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Solidity</span>
@@ -91,7 +82,7 @@ const highlights = [
               </div>
 
               <div>
-                <div class="text-sm text-slate-500 mb-2 font-medium">AI & Cloud</div>
+                <div class="text-sm text-slate-500 mb-2 font-medium">{{ t('about.aiCloud') }}</div>
                 <div class="flex flex-wrap gap-2 items-center">
                   <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Claude</span>
                   <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">GenKit</span>

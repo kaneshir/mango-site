@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const { t } = useI18n()
+
 const form = reactive({
   name: '',
   email: '',
@@ -35,7 +37,7 @@ async function handleSubmit() {
       throw new Error('Failed to send message')
     }
   } catch (e) {
-    error.value = 'Something went wrong. Please email me directly at derek@mangosoft.co'
+    error.value = t('contact.error')
   } finally {
     isSubmitting.value = false
   }
@@ -52,64 +54,64 @@ async function handleSubmit() {
     <div class="max-w-3xl mx-auto px-6 relative z-10">
       <!-- Section Header -->
       <div class="text-center mb-12">
-        <h2 class="section-heading">
-          Let's <span class="gradient-text">Talk</span>
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">
+          {{ t('contact.title') }} <span v-if="t('contact.titleHighlight')" class="gradient-text">{{ t('contact.titleHighlight') }}</span>
         </h2>
         <p class="text-slate-400 text-lg">
-          Have a project in mind? Let's discuss how AI-powered development can accelerate your vision.
+          {{ t('contact.subtitle') }}
         </p>
       </div>
 
       <!-- Success Message -->
-      <div v-if="isSubmitted" class="card text-center">
+      <div v-if="isSubmitted" class="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-8 text-center">
         <div class="w-16 h-16 bg-mango-green/20 rounded-full flex items-center justify-center mx-auto mb-4">
           <svg class="w-8 h-8 text-mango-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-2">Message Sent!</h3>
-        <p class="text-slate-400">I'll get back to you soon.</p>
+        <h3 class="text-xl font-bold text-white mb-2">{{ t('contact.success') }}</h3>
+        <p class="text-slate-400">{{ t('contact.successSub') }}</p>
       </div>
 
       <!-- Contact Form -->
-      <form v-else class="card" @submit.prevent="handleSubmit">
+      <form v-else class="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-8" @submit.prevent="handleSubmit">
         <div class="space-y-6">
           <!-- Name -->
           <div>
-            <label for="name" class="block text-sm font-medium text-slate-300 mb-2">Name</label>
+            <label for="name" class="block text-sm font-medium text-slate-300 mb-2">{{ t('contact.name') }}</label>
             <input
               id="name"
               v-model="form.name"
               type="text"
               required
               class="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-mango-orange transition-colors duration-200"
-              placeholder="Your name"
+              :placeholder="t('contact.namePlaceholder')"
             />
           </div>
 
           <!-- Email -->
           <div>
-            <label for="email" class="block text-sm font-medium text-slate-300 mb-2">Email</label>
+            <label for="email" class="block text-sm font-medium text-slate-300 mb-2">{{ t('contact.email') }}</label>
             <input
               id="email"
               v-model="form.email"
               type="email"
               required
               class="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-mango-orange transition-colors duration-200"
-              placeholder="you@example.com"
+              :placeholder="t('contact.emailPlaceholder')"
             />
           </div>
 
           <!-- Message -->
           <div>
-            <label for="message" class="block text-sm font-medium text-slate-300 mb-2">Message</label>
+            <label for="message" class="block text-sm font-medium text-slate-300 mb-2">{{ t('contact.message') }}</label>
             <textarea
               id="message"
               v-model="form.message"
               rows="5"
               required
               class="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-mango-orange transition-colors duration-200 resize-none"
-              placeholder="Tell me about your project..."
+              :placeholder="t('contact.messagePlaceholder')"
             ></textarea>
           </div>
 
@@ -124,14 +126,14 @@ async function handleSubmit() {
             :disabled="isSubmitting"
             class="w-full btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            <span v-if="isSubmitting">Sending...</span>
-            <span v-else>Send Message</span>
+            <span v-if="isSubmitting">{{ t('contact.sending') }}</span>
+            <span v-else>{{ t('contact.send') }}</span>
           </button>
         </div>
 
         <!-- Direct email fallback -->
         <p class="text-center text-slate-500 text-sm mt-6">
-          Or email me directly at
+          {{ t('contact.directEmail') }}
           <a href="mailto:derek@mangosoft.co" class="text-mango-orange hover:underline">derek@mangosoft.co</a>
         </p>
       </form>

@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "letsTalk": "Let's Talk"
+  },
+  "hero": {
+    "title1": "AI-Powered Development",
+    "title2": "for the Modern Era",
+    "subtitle": "25+ years of enterprise experience meets cutting-edge AI. Production-grade platforms delivered in months, not years.",
+    "cta": "Let's Talk",
+    "seeWork": "See My Work",
+    "stats": {
+      "years": "Years Experience",
+      "patients": "Patients Served",
+      "platforms": "Platforms in 6 Months",
+      "engineers": "Engineers Led"
+    }
+  },
+  "services": {
+    "title": "What I",
+    "titleHighlight": "Offer",
+    "subtitle": "Enterprise-grade solutions with startup velocity. Leverage 25+ years of experience combined with AI-powered development workflows.",
+    "aiStrategy": {
+      "title": "AI Strategy & Roadmapping",
+      "description": "Assess your AI readiness, identify high-impact opportunities, and create actionable roadmaps for AI transformation. Navigate the shift from traditional development to AI-first workflows."
+    },
+    "aiDev": {
+      "title": "AI-Powered Development",
+      "description": "Build production-grade products using AI as the primary developer. Claude, Copilot, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture."
+    },
+    "rnd": {
+      "title": "R&D & Prototyping",
+      "description": "Rapid prototypes and proof of concepts to validate ideas before full investment. From blockchain to healthcare, test complex technical concepts with minimal risk."
+    }
+  },
+  "about": {
+    "title": "Building the",
+    "titleHighlight": "Future",
+    "p1": "I'm Derek Kaneshiro—a software engineer with 25+ years of experience who's gone all-in on AI-powered development. Not as a buzzword, but as a fundamental shift in how great software gets built.",
+    "p2": "My background spans healthcare systems serving half a million patients, veterinary platforms powering 750+ hospitals, and digital signage networks across the nation. I've managed teams of 30 engineers and architected systems that are still running a decade later.",
+    "p3": "Now I'm proving what's possible when deep experience meets AI-first development. In the last 6 months, I've shipped three production-grade platforms—each with mobile apps, web portals, APIs, payments, and analytics. That's not hype. That's the new reality.",
+    "p4": "I help companies who want that same velocity without sacrificing quality.",
+    "techStack": "Tech Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "blockchain": "Blockchain",
+    "aiCloud": "AI & Cloud"
+  },
+  "portfolio": {
+    "title": "Recent",
+    "titleHighlight": "Work",
+    "subtitle": "Three production-grade platforms built in 6 months using AI-powered development. Each with mobile apps, web portals, APIs, payments, and analytics.",
+    "builtWith": "All projects architected and built using Claude as the primary development partner.",
+    "blueskil": {
+      "tagline": "Apprenticeship marketplace for skilled trades",
+      "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems."
+    },
+    "redy": {
+      "tagline": "Digital vault + EU DPP compliance platform",
+      "description": "Consumer app for managing receipts, warranties, and certificates. B2B platform for EU Digital Product Passport compliance ahead of the 2027 mandate. Document capture, OCR, sharing, and compliance reporting."
+    },
+    "toknize": {
+      "tagline": "One API to tokenize anything, on any chain",
+      "description": "Blockchain-agnostic tokenization platform. Create, manage, and transfer digital asset records with full provenance tracking across Sui, EVM, and Solana chains. Fractional ownership and multi-sig workflows."
+    }
+  },
+  "contact": {
+    "title": "Let's",
+    "titleHighlight": "Talk",
+    "subtitle": "Have a project in mind? Let's discuss how AI-powered development can accelerate your vision.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "message": "Message",
+    "messagePlaceholder": "Tell me about your project...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message Sent!",
+    "successSub": "I'll get back to you soon.",
+    "error": "Something went wrong. Please email me directly at derek@mangosoft.co",
+    "directEmail": "Or email me directly at"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

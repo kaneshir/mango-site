@@ -6,7 +6,31 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
+    '@nuxtjs/color-mode',
+    '@nuxtjs/i18n',
   ],
+
+  colorMode: {
+    classSuffix: '',
+    preference: 'dark',
+    fallback: 'dark',
+  },
+
+  i18n: {
+    locales: [
+      { code: 'en', name: 'English', file: 'en.json' },
+      { code: 'es', name: 'Español', file: 'es.json' },
+    ],
+    defaultLocale: 'en',
+    lazy: true,
+    langDir: 'i18n/locales',
+    strategy: 'no_prefix',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      fallbackLocale: 'en',
+    },
+  },
 
   runtimeConfig: {
     sendgridApiKey: process.env.SENDGRID_API_KEY,
@@ -27,5 +51,4 @@ export default defineNuxtConfig({
       ],
     },
   },
-
-  })
+})

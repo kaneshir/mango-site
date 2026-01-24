@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const currentYear = new Date().getFullYear()
 </script>
 
@@ -10,7 +11,7 @@ const currentYear = new Date().getFullYear()
         <div class="flex items-center gap-3">
           <img src="/mango-logo.png" alt="Mango Software" class="h-8 w-auto" />
           <span class="text-slate-400 text-sm">
-            &copy; {{ currentYear }} Mango Software. All rights reserved.
+            &copy; {{ currentYear }} Mango Software. {{ t('footer.rights') }}
           </span>
         </div>
 
