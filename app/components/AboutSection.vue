@@ -20,7 +20,7 @@ const highlights = [
       <div class="grid lg:grid-cols-2 gap-12 items-start">
         <!-- Content -->
         <div class="min-w-0">
-          <h2 class="text-4xl md:text-5xl font-bold mb-8">
+          <h2 class="text-4xl md:text-5xl font-bold mb-8 text-slate-800 dark:text-white">
             {{ t('about.title') }} <span class="gradient-text">{{ t('about.titleHighlight') }}</span>
           </h2>
 

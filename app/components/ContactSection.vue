@@ -54,7 +54,7 @@ async function handleSubmit() {
     <div class="max-w-3xl mx-auto px-6 relative z-10">
       <!-- Section Header -->
       <div class="text-center mb-12">
-        <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6 text-slate-800 dark:text-white">
           {{ t('contact.title') }} <span v-if="t('contact.titleHighlight')" class="gradient-text">{{ t('contact.titleHighlight') }}</span>
         </h2>
         <p class="text-slate-500 dark:text-slate-400 text-lg">

@@ -25,7 +25,7 @@ const services = computed(() => [
     <div class="max-w-7xl mx-auto px-6">
       <!-- Section Header -->
       <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6 text-slate-800 dark:text-white">
           {{ t('services.title') }} <span class="gradient-text">{{ t('services.titleHighlight') }}</span>
         </h2>
         <p class="text-slate-500 dark:text-slate-400 text-lg max-w-2xl mx-auto">
