@@ -28,7 +28,7 @@ const services = computed(() => [
         <h2 class="text-4xl md:text-5xl font-bold mb-6">
           {{ t('services.title') }} <span class="gradient-text">{{ t('services.titleHighlight') }}</span>
         </h2>
-        <p class="text-slate-500 dark:text-slate-400 text-lg max-w-2xl mx-auto">
+        <p class="text-slate-400 text-lg max-w-2xl mx-auto">
           {{ t('services.subtitle') }}
         </p>
       </div>

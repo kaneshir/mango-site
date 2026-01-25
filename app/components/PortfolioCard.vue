@@ -10,10 +10,10 @@ defineProps<{
 </script>
 
 <template>
-  <div class="bg-white/80 dark:bg-slate-900/50 backdrop-blur-sm border border-slate-200 dark:border-slate-700 rounded-2xl p-8 hover:border-mango-orange/50 transition-all duration-300 group h-full flex flex-col">
+  <div class="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-8 hover:border-mango-orange/50 transition-all duration-300 group h-full flex flex-col">
     <!-- Header -->
     <div class="flex items-start justify-between mb-4">
-      <h3 class="text-2xl font-bold text-slate-800 dark:text-white group-hover:text-mango-orange transition-colors duration-300">
+      <h3 class="text-2xl font-bold text-white group-hover:text-mango-orange transition-colors duration-300">
         {{ title }}
       </h3>
       <span class="px-3 py-1 bg-mango-green/20 text-mango-green text-xs font-medium rounded-full">
@@ -27,7 +27,7 @@ defineProps<{
     </p>
 
     <!-- Description -->
-    <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6 flex-grow">
+    <p class="text-slate-400 leading-relaxed mb-6 flex-grow">
       {{ description }}
     </p>
 
@@ -36,7 +36,7 @@ defineProps<{
       <span
         v-for="t in tech"
         :key="t"
-        class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs text-slate-600 dark:text-slate-300"
+        class="px-3 py-1 bg-slate-800 rounded-full text-xs text-slate-300"
       >
         {{ t }}
       </span>

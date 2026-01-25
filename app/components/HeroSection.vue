@@ -21,11 +21,11 @@ const { t } = useI18n()
         <h1 class="text-5xl md:text-7xl font-extrabold mb-6 text-balance">
           <span class="gradient-text">{{ t('hero.title1') }}</span>
           <br />
-          <span class="text-slate-800 dark:text-white">{{ t('hero.title2') }}</span>
+          <span class="text-white">{{ t('hero.title2') }}</span>
         </h1>
 
         <!-- Subhead -->
-        <p class="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto text-balance">
+        <p class="text-xl md:text-2xl text-slate-300 mb-10 max-w-2xl mx-auto text-balance">
           {{ t('hero.subtitle') }}
         </p>
 
@@ -43,19 +43,19 @@ const { t } = useI18n()
         <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">25+</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.years') }}</div>
+            <div class="text-slate-400 text-sm mt-1">{{ t('hero.stats.years') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">500K+</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.patients') }}</div>
+            <div class="text-slate-400 text-sm mt-1">{{ t('hero.stats.patients') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">3</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.platforms') }}</div>
+            <div class="text-slate-400 text-sm mt-1">{{ t('hero.stats.platforms') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">30+</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.engineers') }}</div>
+            <div class="text-slate-400 text-sm mt-1">{{ t('hero.stats.engineers') }}</div>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ const { t } = useI18n()
 
     <!-- Scroll indicator -->
     <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-      <svg class="w-6 h-6 text-slate-400 dark:text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg class="w-6 h-6 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
       </svg>
     </div>
