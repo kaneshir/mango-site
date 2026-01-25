@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "about": "Sobre Mí",
+    "portfolio": "Portafolio",
+    "contact": "Contacto",
+    "letsTalk": "Hablemos"
+  },
+  "hero": {
+    "title1": "Desarrollo Impulsado por IA",
+    "title2": "para la Era Moderna",
+    "subtitle": "Más de 25 años de experiencia empresarial combinados con IA de vanguardia. Plataformas de producción entregadas en meses, no años.",
+    "cta": "Hablemos",
+    "seeWork": "Ver Mi Trabajo",
+    "stats": {
+      "years": "Años de Experiencia",
+      "patients": "Pacientes Atendidos",
+      "platforms": "Plataformas en 6 Meses",
+      "engineers": "Ingenieros Liderados"
+    }
+  },
+  "services": {
+    "title": "Lo Que",
+    "titleHighlight": "Ofrezco",
+    "subtitle": "Soluciones empresariales con velocidad de startup. Aprovecha más de 25 años de experiencia combinados con flujos de desarrollo impulsados por IA.",
+    "aiStrategy": {
+      "title": "Estrategia y Planificación de IA",
+      "description": "Evalúa tu preparación para IA, identifica oportunidades de alto impacto y crea hojas de ruta accionables para la transformación de IA. Navega el cambio del desarrollo tradicional a flujos de trabajo con IA."
+    },
+    "aiDev": {
+      "title": "Desarrollo Impulsado por IA",
+      "description": "Construye productos de grado de producción usando IA como desarrollador principal. Claude, Copilot y flujos de trabajo personalizados permiten entregas más rápidas, costos más bajos y arquitectura de calidad empresarial."
+    },
+    "rnd": {
+      "title": "I+D y Prototipos",
+      "description": "Prototipos rápidos y pruebas de concepto para validar ideas antes de invertir completamente. Desde blockchain hasta salud, prueba conceptos técnicos complejos con riesgo mínimo."
+    }
+  },
+  "about": {
+    "title": "Construyendo el",
+    "titleHighlight": "Futuro",
+    "p1": "Soy Derek Kaneshiro—un ingeniero de software con más de 25 años de experiencia que ha apostado todo al desarrollo impulsado por IA. No como una palabra de moda, sino como un cambio fundamental en cómo se construye gran software.",
+    "p2": "Mi experiencia abarca APIs de salud ortopédica sirviendo a más de 500K pacientes, plataformas veterinarias operando más de 750 hospitales, y redes de señalización digital a nivel nacional. He liderado equipos de 30 ingenieros y diseñado sistemas que siguen funcionando una década después.",
+    "p3": "Ahora estoy demostrando lo que es posible cuando la experiencia profunda se encuentra con el desarrollo con IA. En los últimos 6 meses, he lanzado tres plataformas de producción—cada una con apps móviles, portales web, APIs, pagos y analíticas. Eso no es marketing. Es la nueva realidad.",
+    "p4": "Ayudo a empresas que quieren esa misma velocidad sin sacrificar calidad.",
+    "techStack": "Stack Tecnológico",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "blockchain": "Blockchain",
+    "aiCloud": "IA y Nube"
+  },
+  "portfolio": {
+    "title": "Trabajo",
+    "titleHighlight": "Reciente",
+    "subtitle": "Tres plataformas de producción construidas en 6 meses usando desarrollo impulsado por IA. Cada una con apps móviles, portales web, APIs, pagos y analíticas.",
+    "builtWith": "Todos los proyectos diseñados y construidos usando Claude como socio principal de desarrollo.",
+    "blueskil": {
+      "tagline": "Marketplace de aprendizaje para oficios especializados",
+      "description": "Conectando empleadores verificados con aprendices en construcción y oficios especializados. Ciclo completo de contratación: publicación de empleos, aplicaciones, entrevistas, pagos con Stripe, calificaciones y sistemas de referidos."
+    },
+    "redy": {
+      "tagline": "Bóveda digital + plataforma de cumplimiento DPP de la UE",
+      "description": "App para consumidores para gestionar recibos, garantías y certificados. Plataforma B2B para cumplimiento del Pasaporte Digital de Productos de la UE antes del mandato 2027. Captura de documentos, OCR, compartición e informes de cumplimiento."
+    },
+    "toknize": {
+      "tagline": "Una API para tokenizar cualquier cosa, en cualquier blockchain",
+      "description": "Plataforma de tokenización agnóstica de blockchain. Crea, gestiona y transfiere registros de activos digitales con seguimiento completo de procedencia en cadenas Sui, EVM y Solana. Propiedad fraccionada y flujos multi-firma."
+    }
+  },
+  "contact": {
+    "title": "Hablemos",
+    "titleHighlight": "",
+    "subtitle": "¿Tienes un proyecto en mente? Hablemos de cómo el desarrollo impulsado por IA puede acelerar tu visión.",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "tu{'@'}ejemplo.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje Enviado!",
+    "successSub": "Te responderé pronto.",
+    "error": "Algo salió mal. Por favor escríbeme directamente a derek{'@'}mangosoft.co",
+    "directEmail": "O escríbeme directamente a"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

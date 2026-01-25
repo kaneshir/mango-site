@@ -1,0 +1,46 @@
+# Mango Software
+
+> AI-powered software development consultancy led by Derek Kaneshiro, a software engineer with 25+ years of enterprise experience.
+
+## About
+
+Mango Software helps companies navigate AI transformation in software development. We combine deep enterprise experience with cutting-edge AI-powered development workflows to deliver production-grade platforms at startup speed.
+
+## Services
+
+### AI Strategy & Roadmapping
+Assess AI readiness, identify high-impact opportunities, and create actionable roadmaps for AI transformation. Navigate the shift from traditional development to AI-first workflows.
+
+### AI-Powered Development
+Build production-grade products using AI as the primary developer. Claude, Copilot, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture.
+
+### R&D & Prototyping
+Rapid prototypes and proof of concepts to validate ideas before full investment. From blockchain to healthcare, test complex technical concepts with minimal risk.
+
+## Expertise
+
+- **Frontend**: Flutter, Nuxt 3, Vue 3, Tailwind CSS
+- **Backend**: NestJS, .NET, PostgreSQL, Firebase, Redis
+- **Blockchain**: Sui Move, Solidity, Solana
+- **AI & Cloud**: Claude, GenKit, GCP, Azure, BigQuery
+
+## Recent Projects
+
+### BlueSkil
+Apprenticeship marketplace for skilled trades. Connects verified employers with apprentices in construction. Full hiring lifecycle with Stripe payments and analytics.
+
+### Redy
+Digital vault and EU Digital Product Passport platform. Consumer app for receipts/warranties, B2B platform for 2027 EU DPP compliance.
+
+### Toknize
+Blockchain-agnostic tokenization platform. One API to tokenize anything on Sui, EVM, or Solana chains.
+
+## Contact
+
+- **Email**: derek@mangosoft.co
+- **Website**: https://mangosoft.co
+- **LinkedIn**: https://www.linkedin.com/in/derek-kaneshiro-a116513a8/
+
+## Location
+
+Portland, Oregon, USA
