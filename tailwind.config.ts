@@ -4,6 +4,7 @@ export default {
   content: [
     './app/**/*.{vue,js,ts}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -16,6 +17,8 @@ export default {
           yellow: '#FCBF49',
           green: '#2A9D8F',
           dark: '#1A1A2E',
+          cream: '#F7F6F3',
+          'cream-dark': '#EDEAE5',
         },
       },
       backgroundImage: {

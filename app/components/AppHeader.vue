@@ -22,7 +22,7 @@ function toggleLocale() {
 </script>
 
 <template>
-  <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b bg-slate-950/80 border-slate-800 dark:bg-slate-950/80 dark:border-slate-800">
+  <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b bg-mango-cream/90 border-slate-200 dark:bg-slate-950/80 dark:border-slate-800">
     <nav class="max-w-7xl mx-auto px-6 py-4">
       <div class="flex items-center justify-between">
         <!-- Logo -->
@@ -37,7 +37,7 @@ function toggleLocale() {
             v-for="link in navLinks"
             :key="link.name"
             :href="link.href"
-            class="text-slate-300 hover:text-mango-orange transition-colors duration-200"
+            class="text-slate-600 hover:text-mango-orange dark:text-slate-300 transition-colors duration-200"
           >
             {{ link.name }}
           </a>
@@ -45,7 +45,7 @@ function toggleLocale() {
           <!-- Language Toggle -->
           <button
             @click="toggleLocale"
-            class="px-2 py-1 text-sm text-slate-400 hover:text-mango-orange transition-colors border border-slate-700 rounded"
+            class="px-2 py-1 text-sm text-slate-500 hover:text-mango-orange transition-colors border border-slate-300 dark:border-slate-700 dark:text-slate-400 rounded"
             :title="locale === 'en' ? 'Cambiar a Español' : 'Switch to English'"
           >
             {{ locale === 'en' ? 'ES' : 'EN' }}
@@ -54,7 +54,7 @@ function toggleLocale() {
           <!-- Theme Toggle -->
           <button
             @click="toggleTheme"
-            class="p-2 text-slate-400 hover:text-mango-orange transition-colors"
+            class="p-2 text-slate-500 hover:text-mango-orange dark:text-slate-400 transition-colors"
             :title="colorMode.value === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
           >
             <svg v-if="colorMode.value === 'dark'" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -72,7 +72,7 @@ function toggleLocale() {
 
         <!-- Mobile Menu Button -->
         <button
-          class="md:hidden p-2 text-slate-300 hover:text-white"
+          class="md:hidden p-2 text-slate-600 hover:text-slate-800 dark:text-slate-300 dark:hover:text-white"
           @click="isMenuOpen = !isMenuOpen"
         >
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,14 +97,14 @@ function toggleLocale() {
       <!-- Mobile Nav -->
       <div
         v-if="isMenuOpen"
-        class="md:hidden mt-4 pb-4 border-t border-slate-800 pt-4"
+        class="md:hidden mt-4 pb-4 border-t border-slate-200 dark:border-slate-800 pt-4"
       >
         <div class="flex flex-col gap-4">
           <a
             v-for="link in navLinks"
             :key="link.name"
             :href="link.href"
-            class="text-slate-300 hover:text-mango-orange transition-colors duration-200"
+            class="text-slate-600 hover:text-mango-orange dark:text-slate-300 transition-colors duration-200"
             @click="isMenuOpen = false"
           >
             {{ link.name }}

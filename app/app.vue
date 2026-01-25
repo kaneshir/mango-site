@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-slate-950 text-white antialiased">
+  <div class="min-h-screen antialiased transition-colors duration-300">
     <NuxtRouteAnnouncer />
     <NuxtPage />
   </div>
@@ -12,6 +12,14 @@ html {
 
 body {
   font-family: 'Inter', system-ui, sans-serif;
+  background-color: #F7F6F3;
+  color: #1e293b;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html.dark body {
+  background-color: #020617;
+  color: #ffffff;
 }
 
 .gradient-text {
