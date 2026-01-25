@@ -76,6 +76,17 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap' },
       ],
       script: [
+        // Google Analytics
+        {
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-Z8K1KDWS00',
+          async: true,
+        },
+        {
+          innerHTML: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Z8K1KDWS00');`,
+        },
         {
           type: 'application/ld+json',
           innerHTML: JSON.stringify({
