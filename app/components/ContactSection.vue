@@ -57,60 +57,60 @@ async function handleSubmit() {
         <h2 class="text-4xl md:text-5xl font-bold mb-6">
           {{ t('contact.title') }} <span v-if="t('contact.titleHighlight')" class="gradient-text">{{ t('contact.titleHighlight') }}</span>
         </h2>
-        <p class="text-slate-400 text-lg">
+        <p class="text-slate-500 dark:text-slate-400 text-lg">
           {{ t('contact.subtitle') }}
         </p>
       </div>
 
       <!-- Success Message -->
-      <div v-if="isSubmitted" class="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-8 text-center">
+      <div v-if="isSubmitted" class="bg-white/80 dark:bg-slate-900/50 backdrop-blur-sm border border-slate-200 dark:border-slate-700 rounded-2xl p-8 text-center">
         <div class="w-16 h-16 bg-mango-green/20 rounded-full flex items-center justify-center mx-auto mb-4">
           <svg class="w-8 h-8 text-mango-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-2">{{ t('contact.success') }}</h3>
-        <p class="text-slate-400">{{ t('contact.successSub') }}</p>
+        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-2">{{ t('contact.success') }}</h3>
+        <p class="text-slate-500 dark:text-slate-400">{{ t('contact.successSub') }}</p>
       </div>
 
       <!-- Contact Form -->
-      <form v-else class="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-8" @submit.prevent="handleSubmit">
+      <form v-else class="bg-white/80 dark:bg-slate-900/50 backdrop-blur-sm border border-slate-200 dark:border-slate-700 rounded-2xl p-8" @submit.prevent="handleSubmit">
         <div class="space-y-6">
           <!-- Name -->
           <div>
-            <label for="name" class="block text-sm font-medium text-slate-300 mb-2">{{ t('contact.name') }}</label>
+            <label for="name" class="block text-sm font-medium text-slate-600 dark:text-slate-300 mb-2">{{ t('contact.name') }}</label>
             <input
               id="name"
               v-model="form.name"
               type="text"
               required
-              class="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-mango-orange transition-colors duration-200"
+              class="w-full px-4 py-3 bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-mango-orange transition-colors duration-200"
               :placeholder="t('contact.namePlaceholder')"
             />
           </div>
 
           <!-- Email -->
           <div>
-            <label for="email" class="block text-sm font-medium text-slate-300 mb-2">{{ t('contact.email') }}</label>
+            <label for="email" class="block text-sm font-medium text-slate-600 dark:text-slate-300 mb-2">{{ t('contact.email') }}</label>
             <input
               id="email"
               v-model="form.email"
               type="email"
               required
-              class="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-mango-orange transition-colors duration-200"
+              class="w-full px-4 py-3 bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-mango-orange transition-colors duration-200"
               :placeholder="t('contact.emailPlaceholder')"
             />
           </div>
 
           <!-- Message -->
           <div>
-            <label for="message" class="block text-sm font-medium text-slate-300 mb-2">{{ t('contact.message') }}</label>
+            <label for="message" class="block text-sm font-medium text-slate-600 dark:text-slate-300 mb-2">{{ t('contact.message') }}</label>
             <textarea
               id="message"
               v-model="form.message"
               rows="5"
               required
-              class="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-mango-orange transition-colors duration-200 resize-none"
+              class="w-full px-4 py-3 bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-mango-orange transition-colors duration-200 resize-none"
               :placeholder="t('contact.messagePlaceholder')"
             ></textarea>
           </div>
@@ -132,7 +132,7 @@ async function handleSubmit() {
         </div>
 
         <!-- Direct email fallback -->
-        <p class="text-center text-slate-500 text-sm mt-6">
+        <p class="text-center text-slate-500 dark:text-slate-500 text-sm mt-6">
           {{ t('contact.directEmail') }}
           <a href="mailto:derek@mangosoft.co" class="text-mango-orange hover:underline">derek@mangosoft.co</a>
         </p>

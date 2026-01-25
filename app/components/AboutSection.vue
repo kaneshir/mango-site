@@ -24,7 +24,7 @@ const highlights = [
             {{ t('about.title') }} <span class="gradient-text">{{ t('about.titleHighlight') }}</span>
           </h2>
 
-          <div class="space-y-6 text-slate-300 text-lg leading-relaxed">
+          <div class="space-y-6 text-slate-600 dark:text-slate-300 text-lg leading-relaxed">
             <p>{{ t('about.p1') }}</p>
             <p>{{ t('about.p2') }}</p>
             <p>{{ t('about.p3') }}</p>
@@ -36,59 +36,59 @@ const highlights = [
             <div
               v-for="item in highlights"
               :key="item.label"
-              class="p-4 rounded-xl bg-slate-900/50 border border-slate-800"
+              class="p-4 rounded-xl bg-white/80 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800"
             >
-              <div class="font-semibold text-white">{{ item.label }}</div>
+              <div class="font-semibold text-slate-800 dark:text-white">{{ item.label }}</div>
               <div class="text-sm text-mango-orange">{{ item.role }}</div>
-              <div class="text-xs text-slate-500 mt-1">{{ item.detail }}</div>
+              <div class="text-xs text-slate-500 dark:text-slate-500 mt-1">{{ item.detail }}</div>
             </div>
           </div>
         </div>
 
         <!-- Visual / Tech Stack -->
         <div class="relative min-w-0">
-          <div class="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-8">
+          <div class="bg-white/80 dark:bg-slate-900/50 backdrop-blur-sm border border-slate-200 dark:border-slate-700 rounded-2xl p-8">
             <h3 class="text-xl font-bold mb-6 gradient-text">{{ t('about.techStack') }}</h3>
 
             <div class="space-y-5">
               <div>
                 <div class="text-sm text-slate-500 mb-2 font-medium">{{ t('about.frontend') }}</div>
                 <div class="flex flex-wrap gap-2 items-center">
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Flutter</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Nuxt 3</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Vue 3</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Tailwind</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Flutter</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Nuxt 3</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Vue 3</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Tailwind</span>
                 </div>
               </div>
 
               <div>
                 <div class="text-sm text-slate-500 mb-2 font-medium">{{ t('about.backend') }}</div>
                 <div class="flex flex-wrap gap-2 items-center">
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">NestJS</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">.NET</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">PostgreSQL</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Firebase</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Redis</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">NestJS</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">.NET</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">PostgreSQL</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Firebase</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Redis</span>
                 </div>
               </div>
 
               <div>
                 <div class="text-sm text-slate-500 mb-2 font-medium">{{ t('about.blockchain') }}</div>
                 <div class="flex flex-wrap gap-2 items-center">
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Sui Move</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Solidity</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Solana</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Sui Move</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Solidity</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Solana</span>
                 </div>
               </div>
 
               <div>
                 <div class="text-sm text-slate-500 mb-2 font-medium">{{ t('about.aiCloud') }}</div>
                 <div class="flex flex-wrap gap-2 items-center">
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Claude</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">GenKit</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">GCP</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">Azure</span>
-                  <span class="px-3 py-1 bg-slate-800 rounded-full text-sm text-slate-200">BigQuery</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Claude</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">GenKit</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">GCP</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Azure</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">BigQuery</span>
                 </div>
               </div>
             </div>
