@@ -13,6 +13,14 @@
 }
 
 @layer components {
+  .gradient-text {
+    background-image: linear-gradient(90deg, #F77F00 0%, #FCBF49 50%, #2A9D8F 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
   .btn-primary {
     @apply px-8 py-4 bg-mango-gradient rounded-full font-semibold text-white
            hover:opacity-90 transition-all duration-300 hover:scale-105
@@ -41,14 +49,3 @@
   }
 }
 
-/* Outside @layer — not subject to Tailwind's PostCSS layer processing.
-   display: inline-block is required for background-clip: text to work
-   correctly on Windows Chrome. */
-.gradient-text {
-  display: inline-block;
-  background-image: linear-gradient(90deg, #F77F00 0%, #FCBF49 50%, #2A9D8F 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-}
