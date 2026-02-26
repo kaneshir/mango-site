@@ -25,8 +25,11 @@ const { t } = useI18n()
         </h1>
 
         <!-- Subhead -->
-        <p class="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto text-balance">
+        <p class="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-4 max-w-2xl mx-auto text-balance">
           {{ t('hero.subtitle') }}
+        </p>
+        <p class="text-lg text-slate-500 dark:text-slate-400 mb-10 max-w-2xl mx-auto text-balance">
+          {{ t('hero.subtitle2') }}
         </p>
 
         <!-- CTAs -->

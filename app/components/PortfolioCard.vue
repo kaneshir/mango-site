@@ -6,6 +6,7 @@ defineProps<{
   tech: string[]
   status: string
   link?: string
+  delivery?: string
 }>()
 </script>
 
@@ -40,6 +41,11 @@ defineProps<{
       >
         {{ t }}
       </span>
+    </div>
+
+    <!-- Delivery timeline -->
+    <div v-if="delivery" class="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
+      <p class="text-sm font-medium text-mango-green">⚡ {{ delivery }}</p>
     </div>
 
     <!-- Link -->
