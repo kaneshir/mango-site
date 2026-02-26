@@ -7,17 +7,25 @@
     "letsTalk": "Let's Talk"
   },
   "hero": {
-    "title1": "AI-Powered Development",
-    "title2": "for the Modern Era",
-    "subtitle": "25+ years of enterprise experience meets cutting-edge AI. Production-grade platforms delivered in months, not years.",
-    "cta": "Let's Talk",
-    "seeWork": "See My Work",
+    "title1": "Vibe Code Production-Grade AI",
+    "title2": "Products in Weeks — Not Months",
+    "subtitle": "25+ years building mission-critical enterprise systems. Now I use Claude and AI agents as my primary co-pilot to ship full platforms (mobile + web + payments + analytics) 3–5× faster — without sacrificing quality.",
+    "subtitle2": "In the 2026 AI Wild West, most companies are stuck in endless pilots. I help you ship real, working products before your competitors even finish planning.",
+    "cta": "Book a 15-min AI Velocity Call",
+    "seeWork": "See the Platforms I Just Shipped",
     "stats": {
-      "years": "Years Experience",
+      "years": "Years Enterprise Experience",
       "patients": "Patients Served",
-      "platforms": "Platforms in 6 Months",
+      "platforms": "Platforms Shipped in Weeks",
       "engineers": "Engineers Led"
     }
+  },
+  "wildWest": {
+    "title": "Navigating the 2026",
+    "titleHighlight": "AI Wild West",
+    "p1": "Most companies are burning 6–12 months and hundreds of thousands on AI pilots that never see the light of day.",
+    "p2": "I do the opposite. I vibe code full, production-ready platforms in weeks using Claude as my main development partner — then harden them with the same enterprise architecture I've used on systems serving 500K+ patients and nationwide networks.",
+    "p3": "Startup velocity with zero quality compromise. That's the new standard."
   },
   "services": {
     "title": "What I",
@@ -50,21 +58,24 @@
     "aiCloud": "AI & Cloud"
   },
   "portfolio": {
-    "title": "Recent",
-    "titleHighlight": "Work",
-    "subtitle": "Three production-grade platforms built in 6 months using AI-powered development. Each with mobile apps, web portals, APIs, payments, and analytics.",
+    "title": "Recent AI-First Platforms",
+    "titleHighlight": "Delivered",
+    "subtitle": "In the last six months I treated Claude as my primary development partner and shipped three complete, enterprise-grade platforms — each with mobile apps, web portals, APIs, payments, analytics, and production-ready architecture. All are now in final client staging and scheduled for public launch in Q2 2026. These aren't demos. They're real products built at a speed most teams can only dream of.",
     "builtWith": "All projects architected and built using Claude as the primary development partner.",
     "blueskil": {
       "tagline": "Apprenticeship marketplace for skilled trades",
-      "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems."
+      "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems.",
+      "delivery": "Delivered to production-ready staging in 8 weeks. Launching Q2 2026."
     },
     "redy": {
       "tagline": "Digital vault + EU DPP compliance platform",
-      "description": "Consumer app for managing receipts, warranties, and certificates. B2B platform for EU Digital Product Passport compliance ahead of the 2027 mandate. Document capture, OCR, sharing, and compliance reporting."
+      "description": "Consumer app for managing receipts, warranties, and certificates. B2B platform for EU Digital Product Passport compliance ahead of the 2027 mandate. Document capture, OCR, sharing, and compliance reporting.",
+      "delivery": "Delivered to production-ready staging in 7 weeks. Launching Q2 2026."
     },
     "toknize": {
       "tagline": "One API to tokenize anything, on any chain",
-      "description": "Blockchain-agnostic tokenization platform. Create, manage, and transfer digital asset records with full provenance tracking across Sui, EVM, and Solana chains. Fractional ownership and multi-sig workflows."
+      "description": "Blockchain-agnostic tokenization platform. Create, manage, and transfer digital asset records with full provenance tracking across Sui, EVM, and Solana chains. Fractional ownership and multi-sig workflows.",
+      "delivery": "Delivered to production-ready staging in 9 weeks. Launching Q2 2026."
     }
   },
   "contact": {

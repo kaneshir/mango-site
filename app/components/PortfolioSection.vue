@@ -6,6 +6,7 @@ const projects = computed(() => [
     title: 'BlueSkil',
     tagline: t('portfolio.blueskil.tagline'),
     description: t('portfolio.blueskil.description'),
+    delivery: t('portfolio.blueskil.delivery'),
     tech: ['Flutter', 'NestJS', 'Nuxt', 'Firebase', 'Stripe', 'BigQuery'],
     status: 'Staging',
     link: undefined,
@@ -14,6 +15,7 @@ const projects = computed(() => [
     title: 'Redy',
     tagline: t('portfolio.redy.tagline'),
     description: t('portfolio.redy.description'),
+    delivery: t('portfolio.redy.delivery'),
     tech: ['Flutter', 'NestJS', 'PostgreSQL', 'Nuxt', 'Firebase', 'Stripe'],
     status: 'Staging',
     link: undefined,
@@ -22,6 +24,7 @@ const projects = computed(() => [
     title: 'Toknize',
     tagline: t('portfolio.toknize.tagline'),
     description: t('portfolio.toknize.description'),
+    delivery: t('portfolio.toknize.delivery'),
     tech: ['Flutter', 'NestJS', 'PostgreSQL', 'Sui Move', 'Solidity', 'Nuxt'],
     status: 'Staging',
     link: undefined,
@@ -37,7 +40,7 @@ const projects = computed(() => [
         <h2 class="text-4xl md:text-5xl font-bold mb-6 text-slate-800 dark:text-white">
           {{ t('portfolio.title') }} <span class="gradient-text">{{ t('portfolio.titleHighlight') }}</span>
         </h2>
-        <p class="text-slate-500 dark:text-slate-400 text-lg max-w-2xl mx-auto">
+        <p class="text-slate-500 dark:text-slate-400 text-lg max-w-3xl mx-auto">
           {{ t('portfolio.subtitle') }}
         </p>
       </div>
@@ -50,6 +53,7 @@ const projects = computed(() => [
           :title="project.title"
           :tagline="project.tagline"
           :description="project.description"
+          :delivery="project.delivery"
           :tech="project.tech"
           :status="project.status"
           :link="project.link"
