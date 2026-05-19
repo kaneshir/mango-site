@@ -45,20 +45,20 @@ const { t } = useI18n()
         <!-- Stats -->
         <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold gradient-text">25+</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.years') }}</div>
+            <div class="text-3xl md:text-4xl font-bold gradient-text">5</div>
+            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.shipped') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">500K+</div>
             <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.patients') }}</div>
           </div>
           <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold gradient-text">3</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.platforms') }}</div>
+            <div class="text-3xl md:text-4xl font-bold gradient-text">200K</div>
+            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.infra') }}</div>
           </div>
           <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold gradient-text">30+</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.engineers') }}</div>
+            <div class="text-3xl md:text-4xl font-bold gradient-text">1</div>
+            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.oss') }}</div>
           </div>
         </div>
       </div>
