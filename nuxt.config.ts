@@ -43,7 +43,7 @@ export default defineNuxtConfig({
         lang: 'en',
       },
       meta: [
-        { name: 'description', content: 'Enterprise-grade software delivered at startup speed. 25+ years experience meets AI-powered development. Build production-grade platforms in months, not years.' },
+        { name: 'description', content: 'Enterprise-grade software delivered at startup speed. Decades of enterprise architecture experience meets AI-augmented development. Build production-grade platforms in months, not years.' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'author', content: 'Derek Kaneshiro' },
         { name: 'robots', content: 'index, follow' },
@@ -53,7 +53,7 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Mango Software' },
         { property: 'og:title', content: 'Mango Software | AI-Powered Development' },
-        { property: 'og:description', content: 'Enterprise-grade software delivered at startup speed. 25+ years experience meets AI-powered development.' },
+        { property: 'og:description', content: 'Enterprise-grade software delivered at startup speed. Decades of enterprise architecture experience meets AI-augmented development.' },
         { property: 'og:url', content: 'https://mangosoft.co' },
         { property: 'og:image', content: 'https://mangosoft.co/og-image.png' },
         { property: 'og:locale', content: 'en_US' },
@@ -61,7 +61,7 @@ export default defineNuxtConfig({
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Mango Software | AI-Powered Development' },
-        { name: 'twitter:description', content: 'Enterprise-grade software delivered at startup speed. 25+ years experience meets AI-powered development.' },
+        { name: 'twitter:description', content: 'Enterprise-grade software delivered at startup speed. Decades of enterprise architecture experience meets AI-augmented development.' },
         { name: 'twitter:image', content: 'https://mangosoft.co/og-image.png' },
 
         // Additional SEO

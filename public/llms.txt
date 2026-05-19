@@ -1,6 +1,6 @@
 # Mango Software
 
-> AI-powered software development consultancy led by Derek Kaneshiro, a software engineer with 25+ years of enterprise experience.
+> AI-powered software development consultancy led by Derek Kaneshiro, a software engineer with decades of enterprise architecture experience.
 
 ## About
 
@@ -12,7 +12,7 @@ Mango Software helps companies navigate AI transformation in software developmen
 Assess AI readiness, identify high-impact opportunities, and create actionable roadmaps for AI transformation. Navigate the shift from traditional development to AI-first workflows.
 
 ### AI-Powered Development
-Build production-grade products using AI as the primary developer. Claude, Copilot, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture.
+Build production-grade products using AI as the primary developer. Claude, Codex, Gemini, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture.
 
 ### R&D & Prototyping
 Rapid prototypes and proof of concepts to validate ideas before full investment. From blockchain to healthcare, test complex technical concepts with minimal risk.
@@ -22,7 +22,7 @@ Rapid prototypes and proof of concepts to validate ideas before full investment.
 - **Frontend**: Flutter, Nuxt 3, Vue 3, Tailwind CSS
 - **Backend**: NestJS, .NET, PostgreSQL, Firebase, Redis
 - **Blockchain**: Sui Move, Solidity, Solana
-- **AI & Cloud**: Claude, GenKit, GCP, Azure, BigQuery
+- **AI & Cloud**: Claude, Codex, Gemini, GenKit, GCP, Azure, BigQuery
 
 ## Recent Projects
 
