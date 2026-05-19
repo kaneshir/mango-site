@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section class="min-h-[80vh] flex items-center justify-center relative overflow-hidden pt-20">
+  <section class="min-h-[80vh] flex items-center justify-center relative pt-20">
     <!-- Background gradient orbs -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
       <div class="absolute -top-40 -right-40 w-96 h-96 bg-mango-orange/20 rounded-full blur-3xl"></div>
@@ -25,8 +25,11 @@ const { t } = useI18n()
         </h1>
 
         <!-- Subhead -->
-        <p class="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto text-balance">
+        <p class="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-4 max-w-2xl mx-auto text-balance">
           {{ t('hero.subtitle') }}
+        </p>
+        <p class="text-lg text-slate-500 dark:text-slate-400 mb-10 max-w-2xl mx-auto text-balance">
+          {{ t('hero.subtitle2') }}
         </p>
 
         <!-- CTAs -->

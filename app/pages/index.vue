@@ -13,6 +13,7 @@ useSeoMeta({
     <AppHeader />
     <main>
       <HeroSection />
+      <WildWestSection />
       <ServicesSection />
       <AboutSection />
       <PortfolioSection />
