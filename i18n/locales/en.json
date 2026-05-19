@@ -14,17 +14,17 @@
     "cta": "Book a 15-min AI Velocity Call",
     "seeWork": "See the Platforms I Just Shipped",
     "stats": {
-      "years": "Years Enterprise Experience",
+      "shipped": "Products Shipped (9 Months)",
       "patients": "Patients Served",
-      "platforms": "Platforms Shipped in Weeks",
-      "engineers": "Engineers Led"
+      "infra": "Lines of AI Infrastructure",
+      "oss": "Open-Source AI Framework"
     }
   },
   "wildWest": {
     "title": "Navigating the 2026",
     "titleHighlight": "AI Wild West",
     "p1": "Most companies are burning 6–12 months and hundreds of thousands on AI pilots that never see the light of day.",
-    "p2": "I do the opposite. I vibe code full, production-ready platforms in weeks using Claude as my main development partner — then harden them with the same enterprise architecture I've used on systems serving 500K+ patients and nationwide networks.",
+    "p2": "I do the opposite. I vibe code full, production-ready platforms in weeks using Claude and OpenAI as my main development partners (Gemini in the mix) — then harden them with the same enterprise architecture I've used on systems serving 500K+ patients and nationwide networks.",
     "p3": "Startup velocity with zero quality compromise. That's the new standard."
   },
   "services": {
@@ -37,7 +37,7 @@
     },
     "aiDev": {
       "title": "AI-Powered Development",
-      "description": "Build production-grade products using AI as the primary developer. Claude, Copilot, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture."
+      "description": "Build production-grade products using AI as the primary developer. Claude, Codex, Gemini, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture."
     },
     "rnd": {
       "title": "R&D & Prototyping",
@@ -60,8 +60,8 @@
   "portfolio": {
     "title": "Recent AI-First Platforms",
     "titleHighlight": "Delivered",
-    "subtitle": "In the last six months I treated Claude as my primary development partner and shipped three complete, enterprise-grade platforms — each with mobile apps, web portals, APIs, payments, analytics, and production-ready architecture. All are now in final client staging and scheduled for public launch in Q2 2026. These aren't demos. They're real products built at a speed most teams can only dream of.",
-    "builtWith": "All projects architected and built using Claude as the primary development partner.",
+    "subtitle": "In the last six months I shipped three complete, enterprise-grade platforms — each with mobile apps, web portals, APIs, payments, analytics, and production-ready architecture — built with Claude and OpenAI as my primary development partners (Gemini in the mix). All are now in final client staging and scheduled for public launch in Q2 2026. These aren't demos. They're real products built at a speed most teams can only dream of.",
+    "builtWith": "All projects architected and built using Claude and OpenAI as the primary development partners, with Gemini in the mix.",
     "blueskil": {
       "tagline": "Apprenticeship marketplace for skilled trades",
       "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems.",

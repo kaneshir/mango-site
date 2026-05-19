@@ -13,10 +13,10 @@
     "cta": "Hablemos",
     "seeWork": "Ver Mi Trabajo",
     "stats": {
-      "years": "Años de Experiencia",
+      "shipped": "Productos Lanzados (9 Meses)",
       "patients": "Pacientes Atendidos",
-      "platforms": "Plataformas en 6 Meses",
-      "engineers": "Ingenieros Liderados"
+      "infra": "Líneas de Infraestructura IA",
+      "oss": "Framework de IA Open Source"
     }
   },
   "services": {
@@ -29,7 +29,7 @@
     },
     "aiDev": {
       "title": "Desarrollo Impulsado por IA",
-      "description": "Construye productos de grado de producción usando IA como desarrollador principal. Claude, Copilot y flujos de trabajo personalizados permiten entregas más rápidas, costos más bajos y arquitectura de calidad empresarial."
+      "description": "Construye productos de grado de producción usando IA como desarrollador principal. Claude, Codex, Gemini y flujos de trabajo personalizados permiten entregas más rápidas, costos más bajos y arquitectura de calidad empresarial."
     },
     "rnd": {
       "title": "I+D y Prototipos",
@@ -53,7 +53,7 @@
     "title": "Trabajo",
     "titleHighlight": "Reciente",
     "subtitle": "Tres plataformas de producción construidas en 6 meses usando desarrollo impulsado por IA. Cada una con apps móviles, portales web, APIs, pagos y analíticas.",
-    "builtWith": "Todos los proyectos diseñados y construidos usando Claude como socio principal de desarrollo.",
+    "builtWith": "Todos los proyectos diseñados y construidos usando Claude y OpenAI como socios principales de desarrollo, con Gemini en la mezcla.",
     "blueskil": {
       "tagline": "Marketplace de aprendizaje para oficios especializados",
       "description": "Conectando empleadores verificados con aprendices en construcción y oficios especializados. Ciclo completo de contratación: publicación de empleos, aplicaciones, entrevistas, pagos con Stripe, calificaciones y sistemas de referidos."
