@@ -43,7 +43,7 @@ async function generateOgImage() {
 
       <!-- Subtitle -->
       <text x="600" y="420" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="28" fill="#94a3b8">
-        25+ years enterprise experience • Production-grade platforms in months
+        Decades of enterprise experience • Production-grade platforms in months
       </text>
 
       <!-- Brand -->

@@ -9,8 +9,8 @@
   "hero": {
     "title1": "Vibe Code Production-Grade AI",
     "title2": "Products in Weeks — Not Months",
-    "subtitle": "25+ years building mission-critical enterprise systems. Now I use Claude and AI agents as my primary co-pilot to ship full platforms (mobile + web + payments + analytics) 3–5× faster — without sacrificing quality.",
-    "subtitle2": "In the 2026 AI Wild West, most companies are stuck in endless pilots. I help you ship real, working products before your competitors even finish planning.",
+    "subtitle": "Enterprise architecture that still powers systems running a decade later. Now Claude, Codex, and Gemini drive the day-to-day work — and full platforms (mobile + web + payments + analytics) ship 3–5× faster without sacrificing quality.",
+    "subtitle2": "Most companies are stuck in endless AI pilots. I help you ship real, working products before your competitors even finish planning.",
     "cta": "Book a 15-min AI Velocity Call",
     "seeWork": "See the Platforms I Just Shipped",
     "stats": {
@@ -21,16 +21,16 @@
     }
   },
   "wildWest": {
-    "title": "Navigating the 2026",
-    "titleHighlight": "AI Wild West",
-    "p1": "Most companies are burning 6–12 months and hundreds of thousands on AI pilots that never see the light of day.",
-    "p2": "I do the opposite. I vibe code full, production-ready platforms in weeks using Claude and OpenAI as my main development partners (Gemini in the mix) — then harden them with the same enterprise architecture I've used on systems serving 500K+ patients and nationwide networks.",
-    "p3": "Startup velocity with zero quality compromise. That's the new standard."
+    "title": "Closing the 2026",
+    "titleHighlight": "AI Delivery Gap",
+    "p1": "Most companies are burning six to twelve months and hundreds of thousands on AI pilots that never reach production.",
+    "p2": "I work the opposite way. Claude, Codex, and Gemini drive day-to-day development; I bring the enterprise architecture experience that comes from a decade owning systems for 500K+ users. Production-grade platforms ship in weeks, not pilots that stall in months.",
+    "p3": "Velocity without quality compromise — that's what AI-augmented delivery looks like when a senior engineer drives it."
   },
   "services": {
     "title": "What I",
     "titleHighlight": "Offer",
-    "subtitle": "Enterprise-grade solutions with startup velocity. Leverage 25+ years of experience combined with AI-powered development workflows.",
+    "subtitle": "Enterprise-grade solutions with startup velocity. Decades of enterprise architecture experience combined with AI-powered development workflows.",
     "aiStrategy": {
       "title": "AI Strategy & Roadmapping",
       "description": "Assess your AI readiness, identify high-impact opportunities, and create actionable roadmaps for AI transformation. Navigate the shift from traditional development to AI-first workflows."
@@ -47,7 +47,7 @@
   "about": {
     "title": "Building the",
     "titleHighlight": "Future",
-    "p1": "I'm Derek Kaneshiro—a software engineer with 25+ years of experience who's gone all-in on AI-powered development. Not as a buzzword, but as a fundamental shift in how great software gets built.",
+    "p1": "I'm Derek Kaneshiro—a software engineer who's shipped at every scale, from solo apps to systems serving 500K+ patients, and has gone all-in on AI-powered development. Not as a buzzword, but as a fundamental shift in how great software gets built.",
     "p2": "My background spans orthopedic healthcare APIs serving 500K+ patients, veterinary platforms powering 750+ hospitals, and nationwide digital signage networks. I've led teams of 30 engineers and architected systems still running a decade later.",
     "p3": "Now I'm proving what's possible when deep experience meets AI-first development. In the last 6 months, I've shipped three production-grade platforms—each with mobile apps, web portals, APIs, payments, and analytics. That's not hype. That's the new reality.",
     "p4": "I help companies who want that same velocity without sacrificing quality.",

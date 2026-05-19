@@ -6,7 +6,7 @@
 
 ## Summary
 
-Principal Engineer with 25+ years building and leading software teams, now pioneering AI-powered development to deliver production-grade platforms in months, not years. Built three full-stack platforms in 6 months using AI-first workflows—each with mobile apps, web portals, APIs, payments, and analytics.
+Principal Engineer with decades of experience building and leading software teams, now pioneering AI-augmented development to deliver production-grade platforms in months, not years. Built three full-stack platforms in 6 months using AI-first workflows—each with mobile apps, web portals, APIs, payments, and analytics.
 
 Looking to partner with startups and growth companies who want enterprise-grade architecture delivered at startup speed.
 
@@ -142,7 +142,7 @@ Oregon State University | 1996
 ## What I Offer
 
 - **Speed:** 3 production-grade platforms in 6 months using AI-powered development
-- **Experience:** 25+ years building and leading enterprise software teams
+- **Experience:** Decades of building and leading enterprise software teams
 - **Architecture:** Systems designed to last—my 2017 API still serves 500K patients
 - **Full-Stack:** Mobile, web, API, database, cloud, blockchain—end to end
 - **Leadership:** Managed teams up to 30 engineers across multiple locations

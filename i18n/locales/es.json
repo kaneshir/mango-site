@@ -9,7 +9,8 @@
   "hero": {
     "title1": "Desarrollo Impulsado por IA",
     "title2": "para la Era Moderna",
-    "subtitle": "Más de 25 años de experiencia empresarial combinados con IA de vanguardia. Plataformas de producción entregadas en meses, no años.",
+    "subtitle": "Arquitectura empresarial que aún impulsa sistemas en producción una década después. Ahora Claude, Codex y Gemini llevan el trabajo diario — y plataformas completas (móvil + web + pagos + analíticas) se lanzan 3–5× más rápido sin sacrificar calidad.",
+    "subtitle2": "La mayoría de las empresas están atascadas en pilotos de IA interminables. Te ayudo a lanzar productos reales y funcionales antes de que tus competidores terminen de planificar.",
     "cta": "Hablemos",
     "seeWork": "Ver Mi Trabajo",
     "stats": {
@@ -19,10 +20,17 @@
       "oss": "Framework de IA Open Source"
     }
   },
+  "wildWest": {
+    "title": "Cerrando la",
+    "titleHighlight": "Brecha de Entrega de IA 2026",
+    "p1": "La mayoría de las empresas están quemando de seis a doce meses y cientos de miles en pilotos de IA que nunca llegan a producción.",
+    "p2": "Yo trabajo al revés. Claude, Codex y Gemini llevan el desarrollo diario; yo aporto la experiencia de arquitectura empresarial que viene de una década responsable de sistemas para más de 500K usuarios. Plataformas de grado de producción se lanzan en semanas, no en pilotos que se estancan en meses.",
+    "p3": "Velocidad sin comprometer calidad — eso es lo que parece la entrega aumentada por IA cuando un ingeniero senior la dirige."
+  },
   "services": {
     "title": "Lo Que",
     "titleHighlight": "Ofrezco",
-    "subtitle": "Soluciones empresariales con velocidad de startup. Aprovecha más de 25 años de experiencia combinados con flujos de desarrollo impulsados por IA.",
+    "subtitle": "Soluciones empresariales con velocidad de startup. Décadas de experiencia en arquitectura empresarial combinadas con flujos de desarrollo impulsados por IA.",
     "aiStrategy": {
       "title": "Estrategia y Planificación de IA",
       "description": "Evalúa tu preparación para IA, identifica oportunidades de alto impacto y crea hojas de ruta accionables para la transformación de IA. Navega el cambio del desarrollo tradicional a flujos de trabajo con IA."
@@ -39,7 +47,7 @@
   "about": {
     "title": "Construyendo el",
     "titleHighlight": "Futuro",
-    "p1": "Soy Derek Kaneshiro—un ingeniero de software con más de 25 años de experiencia que ha apostado todo al desarrollo impulsado por IA. No como una palabra de moda, sino como un cambio fundamental en cómo se construye gran software.",
+    "p1": "Soy Derek Kaneshiro—un ingeniero de software que ha lanzado a toda escala, desde apps individuales hasta sistemas que sirven a más de 500K pacientes, y ha apostado todo al desarrollo impulsado por IA. No como una palabra de moda, sino como un cambio fundamental en cómo se construye gran software.",
     "p2": "Mi experiencia abarca APIs de salud ortopédica sirviendo a más de 500K pacientes, plataformas veterinarias operando más de 750 hospitales, y redes de señalización digital a nivel nacional. He liderado equipos de 30 ingenieros y diseñado sistemas que siguen funcionando una década después.",
     "p3": "Ahora estoy demostrando lo que es posible cuando la experiencia profunda se encuentra con el desarrollo con IA. En los últimos 6 meses, he lanzado tres plataformas de producción—cada una con apps móviles, portales web, APIs, pagos y analíticas. Eso no es marketing. Es la nueva realidad.",
     "p4": "Ayudo a empresas que quieren esa misma velocidad sin sacrificar calidad.",
