@@ -13,10 +13,10 @@
     "cta": "Let's Talk",
     "seeWork": "See My Work",
     "stats": {
-      "years": "Years Experience",
+      "shipped": "Products Shipped (9 Months)",
       "patients": "Patients Served",
-      "platforms": "Platforms in 6 Months",
-      "engineers": "Engineers Led"
+      "infra": "Lines of AI Infrastructure",
+      "oss": "Open-Source AI Framework"
     }
   },
   "services": {
@@ -29,7 +29,7 @@
     },
     "aiDev": {
       "title": "AI-Powered Development",
-      "description": "Build production-grade products using AI as the primary developer. Claude, Copilot, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture."
+      "description": "Build production-grade products using AI as the primary developer. Claude, Codex, Gemini, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture."
     },
     "rnd": {
       "title": "R&D & Prototyping",
@@ -53,7 +53,7 @@
     "title": "Recent",
     "titleHighlight": "Work",
     "subtitle": "Three production-grade platforms built in 6 months using AI-powered development. Each with mobile apps, web portals, APIs, payments, and analytics.",
-    "builtWith": "All projects architected and built using Claude as the primary development partner.",
+    "builtWith": "All projects architected and built using Claude and OpenAI as the primary development partners, with Gemini in the mix.",
     "blueskil": {
       "tagline": "Apprenticeship marketplace for skilled trades",
       "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems."
