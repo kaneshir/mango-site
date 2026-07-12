@@ -17,8 +17,8 @@ const projects = computed(() => [
     description: t('portfolio.redy.description'),
     delivery: t('portfolio.redy.delivery'),
     tech: ['Flutter', 'NestJS', 'PostgreSQL', 'Nuxt', 'Firebase', 'Stripe'],
-    status: 'Staging',
-    link: undefined,
+    status: 'Live',
+    link: 'https://redy.co',
   },
   {
     title: 'Toknize',
