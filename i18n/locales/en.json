@@ -60,22 +60,22 @@
   "portfolio": {
     "title": "Recent AI-First Platforms",
     "titleHighlight": "Delivered",
-    "subtitle": "In the last six months I shipped three complete, enterprise-grade platforms — each with mobile apps, web portals, APIs, payments, analytics, and production-ready architecture — built with Claude and OpenAI as my primary development partners (Gemini in the mix). All are now in final client staging and scheduled for public launch in Q2 2026. These aren't demos. They're real products built at a speed most teams can only dream of.",
+    "subtitle": "In the last six months I shipped three complete, enterprise-grade platforms — each with mobile apps, web portals, APIs, payments, analytics, and production-ready architecture — built with Claude and OpenAI as my primary development partners (Gemini in the mix). Redy is now live, with BlueSkil and Toknize rolling out through 2026. These aren't demos. They're real products built at a speed most teams can only dream of.",
     "builtWith": "All projects architected and built using Claude and OpenAI as the primary development partners, with Gemini in the mix.",
     "blueskil": {
       "tagline": "Apprenticeship marketplace for skilled trades",
       "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems.",
-      "delivery": "Delivered to production-ready staging in 8 weeks. Launching Q2 2026."
+      "delivery": "Delivered to production-ready staging in 8 weeks. Launching Q3 2026."
     },
     "redy": {
       "tagline": "Digital vault + EU DPP compliance platform",
       "description": "Consumer app for managing receipts, warranties, and certificates. B2B platform for EU Digital Product Passport compliance ahead of the 2027 mandate. Document capture, OCR, sharing, and compliance reporting.",
-      "delivery": "Delivered to production-ready staging in 7 weeks. Launching Q2 2026."
+      "delivery": "Delivered to production-ready staging in 7 weeks. Now live at redy.co."
     },
     "toknize": {
       "tagline": "One API to tokenize anything, on any chain",
       "description": "Blockchain-agnostic tokenization platform. Create, manage, and transfer digital asset records with full provenance tracking across Sui, EVM, and Solana chains. Fractional ownership and multi-sig workflows.",
-      "delivery": "Delivered to production-ready staging in 9 weeks. Launching Q2 2026."
+      "delivery": "Delivered to production-ready staging in 9 weeks. Launching Q4 2026."
     }
   },
   "contact": {
