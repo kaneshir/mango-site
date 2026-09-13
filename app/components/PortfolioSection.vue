@@ -24,7 +24,7 @@ const projects = computed(() => [
     description: t('portfolio.blueskil.description'),
     tech: ['Flutter', 'NestJS', 'Nuxt', 'Firebase', 'Stripe', 'BigQuery'],
     status: 'In development',
-    link: undefined,
+    link: 'https://blueskil.com',
   },
   {
     title: 'Toknize',

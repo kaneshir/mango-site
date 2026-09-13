@@ -36,7 +36,7 @@
     "title": "What I've",
     "titleHighlight": "Built",
     "subtitle": "The infrastructure is the point; the platforms are the evidence.",
-    "builtWith": "Built with Claude, OpenAI and Gemini as development partners.",
+    "builtWith": "Built with Claude, OpenAI, Gemini and Grok as development partners.",
     "blueskil": {
       "tagline": "Apprenticeship marketplace for skilled trades",
       "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems."
