@@ -1,46 +1,27 @@
-# Mango Software
+# Derek Kaneshiro
 
-> AI-powered software development consultancy led by Derek Kaneshiro, a software engineer with decades of enterprise architecture experience.
+> Personal site of Derek Kaneshiro, a principal software engineer. Ten years owning a
+> HIPAA-regulated clinical platform serving 500,000+ patients; also builds AI agent and
+> evaluation infrastructure, including the open-source framework Synthetic Test Fabric.
 
 ## About
 
-Mango Software helps companies navigate AI transformation in software development. We combine deep enterprise experience with cutting-edge AI-powered development workflows to deliver production-grade platforms at startup speed.
+Derek Kaneshiro is a principal software engineer based in Hillsboro, Oregon. He spent ten
+years as principal engineer on the platform behind Zimmer Biomet's orthopedic recovery
+products — a HIPAA-regulated system serving 500,000+ patients — building its rules-driven
+care-plan engine, its centralized authorization model, and the R&D that prototyped Claude
+and Semantic Kernel integrations through Architecture, Cloud, Security and risk governance.
 
-## Services
+He also builds AI agent infrastructure: narrow composable sub-agents, MCP tool surfaces,
+and multi-provider routing selected per workload on accuracy, latency and cost.
 
-### AI Strategy & Roadmapping
-Assess AI readiness, identify high-impact opportunities, and create actionable roadmaps for AI transformation. Navigate the shift from traditional development to AI-first workflows.
+## Work
 
-### AI-Powered Development
-Build production-grade products using AI as the primary developer. Claude, Codex, Gemini, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture.
-
-### R&D & Prototyping
-Rapid prototypes and proof of concepts to validate ideas before full investment. From blockchain to healthcare, test complex technical concepts with minimal risk.
-
-## Expertise
-
-- **Frontend**: Flutter, Nuxt 3, Vue 3, Tailwind CSS
-- **Backend**: NestJS, .NET, PostgreSQL, Firebase, Redis
-- **Blockchain**: Sui Move, Solidity, Solana
-- **AI & Cloud**: Claude, Codex, Gemini, GenKit, GCP, Azure, BigQuery
-
-## Recent Projects
-
-### BlueSkil
-Apprenticeship marketplace for skilled trades. Connects verified employers with apprentices in construction. Full hiring lifecycle with Stripe payments and analytics.
-
-### Redy
-Digital vault and EU Digital Product Passport platform. Consumer app for receipts/warranties, B2B platform for 2027 EU DPP compliance.
-
-### Toknize
-Blockchain-agnostic tokenization platform. One API to tokenize anything on Sui, EVM, or Solana chains.
+- Synthetic Test Fabric — open-source evaluation framework for AI systems (MIT, on NPM).
+  Ships fab-mcp, an MCP server. https://github.com/kaneshir/synthetic-test-fabric
+- Redy — EU Digital Product Passport platform. Publicly released.
+- BlueSkil, Toknize — in active development.
 
 ## Contact
 
-- **Email**: derek@mangosoft.co
-- **Website**: https://mangosoft.co
-- **LinkedIn**: https://www.linkedin.com/in/derek-kaneshiro-a116513a8/
-
-## Location
-
-Portland, Oregon, USA
+derek@mangosoft.co

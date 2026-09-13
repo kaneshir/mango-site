@@ -64,8 +64,8 @@ const highlights = [
               <div>
                 <div class="text-sm text-slate-500 mb-2 font-medium">{{ t('about.backend') }}</div>
                 <div class="flex flex-wrap gap-2 items-center">
+                                    <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">C# / .NET</span>
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">NestJS</span>
-                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">.NET</span>
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">PostgreSQL</span>
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Firebase</span>
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Redis</span>
@@ -87,6 +87,7 @@ const highlights = [
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Claude</span>
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Codex</span>
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Gemini</span>
+                  <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Grok</span>
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">GenKit</span>
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">GCP</span>
                   <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm text-slate-700 dark:text-slate-200">Azure</span>

@@ -3,7 +3,6 @@ const { t, locale, setLocale } = useI18n()
 const colorMode = useColorMode()
 
 const navLinks = computed(() => [
-  { name: t('nav.services'), href: '#services' },
   { name: t('nav.about'), href: '#about' },
   { name: t('nav.portfolio'), href: '#portfolio' },
   { name: t('nav.contact'), href: '#contact' },
@@ -27,8 +26,8 @@ function toggleLocale() {
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <a href="#" class="flex items-center gap-3">
-          <img src="/mango-logo.png" alt="Mango Software" class="h-10 w-auto" />
-          <span class="text-xl font-bold gradient-text hidden sm:block">Mango Software</span>
+          <img src="/mango-logo.png" alt="Derek Kaneshiro" class="h-10 w-auto" />
+          <span class="text-xl font-bold gradient-text hidden sm:block">Derek Kaneshiro</span>
         </a>
 
         <!-- Desktop Nav -->
@@ -64,10 +63,6 @@ function toggleLocale() {
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
             </svg>
           </button>
-
-          <a href="#contact" class="btn-primary text-sm py-2 px-6">
-            {{ t('nav.letsTalk') }}
-          </a>
         </div>
 
         <!-- Mobile Menu Button -->
@@ -118,10 +113,6 @@ function toggleLocale() {
               {{ colorMode.value === 'dark' ? '☀️ Light' : '🌙 Dark' }}
             </button>
           </div>
-
-          <a href="#contact" class="btn-primary text-center text-sm py-2 px-6" @click="isMenuOpen = false">
-            {{ t('nav.letsTalk') }}
-          </a>
         </div>
       </div>
     </nav>

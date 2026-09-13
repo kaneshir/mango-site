@@ -14,7 +14,6 @@ const { t } = useI18n()
       <div class="text-center max-w-4xl mx-auto">
         <!-- Logo -->
         <div class="mb-6">
-          <img src="/mango-logo.png" alt="Mango Software" class="h-20 md:h-24 w-auto mx-auto" />
         </div>
 
         <!-- Headline -->
@@ -34,7 +33,7 @@ const { t } = useI18n()
 
         <!-- CTAs -->
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#contact" class="btn-primary">
+          <a href="https://github.com/kaneshir/synthetic-test-fabric" target="_blank" rel="noopener" class="btn-primary">
             {{ t('hero.cta') }}
           </a>
           <a href="#portfolio" class="btn-secondary">
@@ -45,7 +44,7 @@ const { t } = useI18n()
         <!-- Stats -->
         <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold gradient-text">5</div>
+            <div class="text-3xl md:text-4xl font-bold gradient-text">10</div>
             <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.shipped') }}</div>
           </div>
           <div class="text-center">
