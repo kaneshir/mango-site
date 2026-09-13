@@ -35,7 +35,7 @@ async function generateOgImage() {
 
       <!-- Main text -->
       <text x="600" y="240" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="800" fill="url(#mango)">
-        AI-Powered Development
+        Principal Software Engineer
       </text>
       <text x="600" y="330" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="700" fill="white">
         for the Modern Era
@@ -43,7 +43,7 @@ async function generateOgImage() {
 
       <!-- Subtitle -->
       <text x="600" y="420" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="28" fill="#94a3b8">
-        Decades of enterprise experience • Production-grade platforms in months
+        Ten years owning a HIPAA platform serving 500,000+ patients
       </text>
 
       <!-- Brand -->
