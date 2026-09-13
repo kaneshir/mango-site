@@ -1,56 +1,31 @@
 {
   "nav": {
-    "services": "Services",
     "about": "About",
-    "portfolio": "Portfolio",
+    "portfolio": "Work",
     "contact": "Contact",
-    "letsTalk": "Let's Talk"
+    "letsTalk": "Contact"
   },
   "hero": {
-    "title1": "Vibe Code Production-Grade AI",
-    "title2": "Products in Weeks — Not Months",
-    "subtitle": "Enterprise architecture that still powers systems running a decade later. Now Claude, Codex, and Gemini drive the day-to-day work — and full platforms (mobile + web + payments + analytics) ship 3–5× faster without sacrificing quality.",
-    "subtitle2": "Most companies are stuck in endless AI pilots. I help you ship real, working products before your competitors even finish planning.",
-    "cta": "Book a 15-min AI Velocity Call",
-    "seeWork": "See the Platforms I Just Shipped",
+    "title1": "Derek Kaneshiro",
+    "title2": "Principal Software Engineer",
+    "subtitle": "Ten years owning a HIPAA-regulated platform serving 500,000+ patients, where a wrong answer was reportable rather than embarrassing. I also build the AI agent and evaluation infrastructure my own development runs on.",
+    "subtitle2": "",
+    "cta": "Read the code",
+    "seeWork": "See what I've built",
     "stats": {
-      "shipped": "Products Shipped (9 Months)",
+      "shipped": "Years Owning a HIPAA Platform",
       "patients": "Patients Served",
       "infra": "Lines of AI Infrastructure",
       "oss": "Open-Source AI Framework"
     }
   },
-  "wildWest": {
-    "title": "Closing the 2026",
-    "titleHighlight": "AI Delivery Gap",
-    "p1": "Most companies are burning six to twelve months and hundreds of thousands on AI pilots that never reach production.",
-    "p2": "I work the opposite way. Claude, Codex, and Gemini drive day-to-day development; I bring the enterprise architecture experience that comes from a decade owning systems for 500K+ users. Production-grade platforms ship in weeks, not pilots that stall in months.",
-    "p3": "Velocity without quality compromise — that's what AI-augmented delivery looks like when a senior engineer drives it."
-  },
-  "services": {
-    "title": "What I",
-    "titleHighlight": "Offer",
-    "subtitle": "Enterprise-grade solutions with startup velocity. Decades of enterprise architecture experience combined with AI-powered development workflows.",
-    "aiStrategy": {
-      "title": "AI Strategy & Roadmapping",
-      "description": "Assess your AI readiness, identify high-impact opportunities, and create actionable roadmaps for AI transformation. Navigate the shift from traditional development to AI-first workflows."
-    },
-    "aiDev": {
-      "title": "AI-Powered Development",
-      "description": "Build production-grade products using AI as the primary developer. Claude, Codex, Gemini, and custom workflows enable faster delivery, lower costs, and enterprise-quality architecture."
-    },
-    "rnd": {
-      "title": "R&D & Prototyping",
-      "description": "Rapid prototypes and proof of concepts to validate ideas before full investment. From blockchain to healthcare, test complex technical concepts with minimal risk."
-    }
-  },
   "about": {
-    "title": "Building the",
-    "titleHighlight": "Future",
-    "p1": "I'm Derek Kaneshiro—a software engineer who's shipped at every scale, from solo apps to systems serving 500K+ patients, and has gone all-in on AI-powered development. Not as a buzzword, but as a fundamental shift in how great software gets built.",
-    "p2": "My background spans orthopedic healthcare APIs serving 500K+ patients, veterinary platforms powering 750+ hospitals, and nationwide digital signage networks. I've led teams of 30 engineers and architected systems still running a decade later.",
-    "p3": "Now I'm proving what's possible when deep experience meets AI-first development. In the last 6 months, I've shipped three production-grade platforms—each with mobile apps, web portals, APIs, payments, and analytics. That's not hype. That's the new reality.",
-    "p4": "I help companies who want that same velocity without sacrificing quality.",
+    "title": "About",
+    "titleHighlight": "Derek",
+    "p1": "I'm Derek Kaneshiro, a principal software engineer in Hillsboro, Oregon. For ten years I owned the HIPAA-regulated platform behind Zimmer Biomet's orthopedic recovery products — 500,000+ patients, PHI in every request, accountable for its reliability throughout.",
+    "p2": "I built the rules-driven engine that decides what each patient receives on each day of recovery; it became core product IP and still serves them. I replaced scattered per-endpoint permission checks with one centralized, auditable authorization model, because an auditor was going to ask who could write what and the architecture had to answer. And I led the R&D that prototyped Claude and Semantic Kernel integrations for that environment, taken through Architecture, Cloud, Security and risk governance.",
+    "p3": "I also build the AI agent infrastructure my own development runs on: narrow composable sub-agents, MCP tool surfaces, and multi-provider routing selected per workload on accuracy, latency and cost — plus an evaluation framework I open-sourced, because AI systems degrade quietly and “it seems better” is not a measurement.",
+    "p4": "Earlier I directed 30 engineers building the practice-management system for 750+ veterinary hospitals.",
     "techStack": "Tech Stack",
     "frontend": "Frontend",
     "backend": "Backend",
@@ -58,36 +33,37 @@
     "aiCloud": "AI & Cloud"
   },
   "portfolio": {
-    "title": "Recent AI-First Platforms",
-    "titleHighlight": "Delivered",
-    "subtitle": "In the last six months I shipped three complete, enterprise-grade platforms — each with mobile apps, web portals, APIs, payments, analytics, and production-ready architecture — built with Claude and OpenAI as my primary development partners (Gemini in the mix). Redy is now live, with BlueSkil and Toknize rolling out through 2026. These aren't demos. They're real products built at a speed most teams can only dream of.",
-    "builtWith": "All projects architected and built using Claude and OpenAI as the primary development partners, with Gemini in the mix.",
+    "title": "What I've",
+    "titleHighlight": "Built",
+    "subtitle": "The infrastructure is the point; the platforms are the evidence.",
+    "builtWith": "Built with Claude, OpenAI and Gemini as development partners.",
     "blueskil": {
       "tagline": "Apprenticeship marketplace for skilled trades",
-      "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems.",
-      "delivery": "Delivered to production-ready staging in 8 weeks. Launching Q3 2026."
+      "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems."
     },
     "redy": {
       "tagline": "Digital vault + EU DPP compliance platform",
-      "description": "Consumer app for managing receipts, warranties, and certificates. B2B platform for EU Digital Product Passport compliance ahead of the 2027 mandate. Document capture, OCR, sharing, and compliance reporting.",
-      "delivery": "Delivered to production-ready staging in 7 weeks. Now live at redy.co."
+      "description": "Consumer app for managing receipts, warranties, and certificates. B2B platform for EU Digital Product Passport compliance ahead of the 2027 mandate. Document capture, OCR, sharing, and compliance reporting."
     },
     "toknize": {
       "tagline": "One API to tokenize anything, on any chain",
-      "description": "Blockchain-agnostic tokenization platform. Create, manage, and transfer digital asset records with full provenance tracking across Sui, EVM, and Solana chains. Fractional ownership and multi-sig workflows.",
-      "delivery": "Delivered to production-ready staging in 9 weeks. Launching Q4 2026."
+      "description": "Blockchain-agnostic tokenization platform. Create, manage, and transfer digital asset records with full provenance tracking across Sui, EVM, and Solana chains. Fractional ownership and multi-sig workflows."
+    },
+    "stf": {
+      "tagline": "Open-source evaluation framework for AI systems",
+      "description": "Generates synthetic users, simulates behaviour, executes flows, scores results against custom quality metrics, and gates deploys on the outcome. Ships fab-mcp, an MCP server exposing every command as a native agent tool. MIT-licensed."
     }
   },
   "contact": {
-    "title": "Let's",
-    "titleHighlight": "Talk",
-    "subtitle": "Have a project in mind? Let's discuss how AI-powered development can accelerate your vision.",
+    "title": "Get in",
+    "titleHighlight": "Touch",
+    "subtitle": "Questions about the work, or just want to say hello — send a note.",
     "name": "Name",
     "namePlaceholder": "Your name",
     "email": "Email",
     "emailPlaceholder": "you{'@'}example.com",
     "message": "Message",
-    "messagePlaceholder": "Tell me about your project...",
+    "messagePlaceholder": "What's on your mind?",
     "send": "Send Message",
     "sending": "Sending...",
     "success": "Message Sent!",

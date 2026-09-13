@@ -1,67 +1,42 @@
 {
   "nav": {
-    "services": "Servicios",
     "about": "Sobre Mí",
-    "portfolio": "Portafolio",
+    "portfolio": "Trabajo",
     "contact": "Contacto",
-    "letsTalk": "Hablemos"
+    "letsTalk": "Contacto"
   },
   "hero": {
-    "title1": "Desarrollo Impulsado por IA",
-    "title2": "para la Era Moderna",
-    "subtitle": "Arquitectura empresarial que aún impulsa sistemas en producción una década después. Ahora Claude, Codex y Gemini llevan el trabajo diario — y plataformas completas (móvil + web + pagos + analíticas) se lanzan 3–5× más rápido sin sacrificar calidad.",
-    "subtitle2": "La mayoría de las empresas están atascadas en pilotos de IA interminables. Te ayudo a lanzar productos reales y funcionales antes de que tus competidores terminen de planificar.",
-    "cta": "Hablemos",
-    "seeWork": "Ver Mi Trabajo",
+    "title1": "Derek Kaneshiro",
+    "title2": "Ingeniero de Software Principal",
+    "subtitle": "Diez años a cargo de una plataforma regulada por HIPAA que atiende a más de 500.000 pacientes, donde una respuesta incorrecta era reportable, no simplemente incómoda. También construyo la infraestructura de agentes de IA y evaluación sobre la que corre mi propio desarrollo.",
+    "subtitle2": "",
+    "cta": "Ver el código",
+    "seeWork": "Ver lo que he construido",
     "stats": {
-      "shipped": "Productos Lanzados (9 Meses)",
+      "shipped": "Años a Cargo de una Plataforma HIPAA",
       "patients": "Pacientes Atendidos",
-      "infra": "Líneas de Infraestructura IA",
-      "oss": "Framework de IA Open Source"
-    }
-  },
-  "wildWest": {
-    "title": "Cerrando la",
-    "titleHighlight": "Brecha de Entrega de IA 2026",
-    "p1": "La mayoría de las empresas están quemando de seis a doce meses y cientos de miles en pilotos de IA que nunca llegan a producción.",
-    "p2": "Yo trabajo al revés. Claude, Codex y Gemini llevan el desarrollo diario; yo aporto la experiencia de arquitectura empresarial que viene de una década responsable de sistemas para más de 500K usuarios. Plataformas de grado de producción se lanzan en semanas, no en pilotos que se estancan en meses.",
-    "p3": "Velocidad sin comprometer calidad — eso es lo que parece la entrega aumentada por IA cuando un ingeniero senior la dirige."
-  },
-  "services": {
-    "title": "Lo Que",
-    "titleHighlight": "Ofrezco",
-    "subtitle": "Soluciones empresariales con velocidad de startup. Décadas de experiencia en arquitectura empresarial combinadas con flujos de desarrollo impulsados por IA.",
-    "aiStrategy": {
-      "title": "Estrategia y Planificación de IA",
-      "description": "Evalúa tu preparación para IA, identifica oportunidades de alto impacto y crea hojas de ruta accionables para la transformación de IA. Navega el cambio del desarrollo tradicional a flujos de trabajo con IA."
-    },
-    "aiDev": {
-      "title": "Desarrollo Impulsado por IA",
-      "description": "Construye productos de grado de producción usando IA como desarrollador principal. Claude, Codex, Gemini y flujos de trabajo personalizados permiten entregas más rápidas, costos más bajos y arquitectura de calidad empresarial."
-    },
-    "rnd": {
-      "title": "I+D y Prototipos",
-      "description": "Prototipos rápidos y pruebas de concepto para validar ideas antes de invertir completamente. Desde blockchain hasta salud, prueba conceptos técnicos complejos con riesgo mínimo."
+      "infra": "Líneas de Infraestructura de IA",
+      "oss": "Framework de IA de Código Abierto"
     }
   },
   "about": {
-    "title": "Construyendo el",
-    "titleHighlight": "Futuro",
-    "p1": "Soy Derek Kaneshiro—un ingeniero de software que ha lanzado a toda escala, desde apps individuales hasta sistemas que sirven a más de 500K pacientes, y ha apostado todo al desarrollo impulsado por IA. No como una palabra de moda, sino como un cambio fundamental en cómo se construye gran software.",
-    "p2": "Mi experiencia abarca APIs de salud ortopédica sirviendo a más de 500K pacientes, plataformas veterinarias operando más de 750 hospitales, y redes de señalización digital a nivel nacional. He liderado equipos de 30 ingenieros y diseñado sistemas que siguen funcionando una década después.",
-    "p3": "Ahora estoy demostrando lo que es posible cuando la experiencia profunda se encuentra con el desarrollo con IA. En los últimos 6 meses, he lanzado tres plataformas de producción—cada una con apps móviles, portales web, APIs, pagos y analíticas. Eso no es marketing. Es la nueva realidad.",
-    "p4": "Ayudo a empresas que quieren esa misma velocidad sin sacrificar calidad.",
+    "title": "Sobre",
+    "titleHighlight": "Derek",
+    "p1": "Soy Derek Kaneshiro, ingeniero de software principal en Hillsboro, Oregón. Durante diez años estuve a cargo de la plataforma regulada por HIPAA detrás de los productos de recuperación ortopédica de Zimmer Biomet — más de 500.000 pacientes, datos de salud protegidos en cada petición, y yo responsable de su fiabilidad.",
+    "p2": "Construí el motor de reglas que decide qué recibe cada paciente en cada día de su recuperación; se convirtió en propiedad intelectual central del producto y sigue en uso. Reemplacé las comprobaciones de permisos dispersas por un único modelo de autorización centralizado y auditable, porque un auditor iba a preguntar quién podía escribir qué y la arquitectura tenía que responder. Y dirigí la I+D que prototipó integraciones de Claude y Semantic Kernel para ese entorno, pasando por revisión de Arquitectura, Cloud, Seguridad y gestión de riesgos.",
+    "p3": "También construyo la infraestructura de agentes de IA sobre la que corre mi propio desarrollo: subagentes acotados y componibles, superficies de herramientas MCP y enrutamiento multiproveedor elegido por carga de trabajo según precisión, latencia y coste — además de un framework de evaluación que publiqué como código abierto, porque los sistemas de IA se degradan en silencio y «parece que va mejor» no es una medición.",
+    "p4": "Antes dirigí a 30 ingenieros construyendo el sistema de gestión para más de 750 hospitales veterinarios.",
     "techStack": "Stack Tecnológico",
     "frontend": "Frontend",
     "backend": "Backend",
     "blockchain": "Blockchain",
-    "aiCloud": "IA y Nube"
+    "aiCloud": "IA y Cloud"
   },
   "portfolio": {
-    "title": "Trabajo",
-    "titleHighlight": "Reciente",
-    "subtitle": "Tres plataformas de producción construidas en 6 meses usando desarrollo impulsado por IA. Cada una con apps móviles, portales web, APIs, pagos y analíticas.",
-    "builtWith": "Todos los proyectos diseñados y construidos usando Claude y OpenAI como socios principales de desarrollo, con Gemini en la mezcla.",
+    "title": "Lo que he",
+    "titleHighlight": "Construido",
+    "subtitle": "La infraestructura es lo importante; las plataformas son la evidencia.",
+    "builtWith": "Construido con Claude, OpenAI y Gemini como socios de desarrollo.",
     "blueskil": {
       "tagline": "Marketplace de aprendizaje para oficios especializados",
       "description": "Conectando empleadores verificados con aprendices en construcción y oficios especializados. Ciclo completo de contratación: publicación de empleos, aplicaciones, entrevistas, pagos con Stripe, calificaciones y sistemas de referidos."
@@ -73,18 +48,22 @@
     "toknize": {
       "tagline": "Una API para tokenizar cualquier cosa, en cualquier blockchain",
       "description": "Plataforma de tokenización agnóstica de blockchain. Crea, gestiona y transfiere registros de activos digitales con seguimiento completo de procedencia en cadenas Sui, EVM y Solana. Propiedad fraccionada y flujos multi-firma."
+    },
+    "stf": {
+      "tagline": "Framework de evaluación de código abierto para sistemas de IA",
+      "description": "Genera usuarios sintéticos, simula comportamiento, ejecuta flujos, puntúa resultados contra métricas de calidad personalizadas y bloquea despliegues según el resultado. Incluye fab-mcp, un servidor MCP que expone cada comando como herramienta nativa para agentes. Licencia MIT."
     }
   },
   "contact": {
-    "title": "Hablemos",
-    "titleHighlight": "",
-    "subtitle": "¿Tienes un proyecto en mente? Hablemos de cómo el desarrollo impulsado por IA puede acelerar tu visión.",
+    "title": "Ponte en",
+    "titleHighlight": "Contacto",
+    "subtitle": "¿Preguntas sobre el trabajo, o simplemente quieres saludar? Envíame un mensaje.",
     "name": "Nombre",
     "namePlaceholder": "Tu nombre",
     "email": "Correo Electrónico",
     "emailPlaceholder": "tu{'@'}ejemplo.com",
     "message": "Mensaje",
-    "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+    "messagePlaceholder": "¿En qué estás pensando?",
     "send": "Enviar Mensaje",
     "sending": "Enviando...",
     "success": "¡Mensaje Enviado!",
