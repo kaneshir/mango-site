@@ -134,7 +134,7 @@ async function handleSubmit() {
         <!-- Direct email fallback -->
         <p class="text-center text-slate-500 dark:text-slate-500 text-sm mt-6">
           {{ t('contact.directEmail') }}
-          <a href="mailto:derek@mangosoft.co" class="text-mango-orange hover:underline">derek@mangosoft.co</a>
+          <a href="mailto:kaneshir97006@gmail.com" class="text-mango-orange hover:underline">kaneshir97006@gmail.com</a>
         </p>
       </form>
     </div>

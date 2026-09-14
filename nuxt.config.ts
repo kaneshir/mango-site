@@ -98,7 +98,7 @@ gtag('config', 'G-Z8K1KDWS00');`,
                 'name': 'Derek Kaneshiro',
                 'jobTitle': 'Principal Software Engineer',
                 'url': 'https://mangosoft.co',
-                'email': 'derek@mangosoft.co',
+                'email': 'kaneshir97006@gmail.com',
                 'address': {
                   '@type': 'PostalAddress',
                   'addressLocality': 'Hillsboro',
