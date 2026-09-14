@@ -27,7 +27,7 @@ const currentYear = new Date().getFullYear()
             </svg>
           </a>
           <a
-            href="mailto:derek@mangosoft.co"
+            href="mailto:kaneshir97006@gmail.com"
             class="text-slate-500 hover:text-mango-orange dark:text-slate-400 transition-colors duration-200"
           >
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

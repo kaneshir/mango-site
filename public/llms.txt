@@ -24,4 +24,4 @@ and multi-provider routing selected per workload on accuracy, latency and cost.
 
 ## Contact
 
-derek@mangosoft.co
+kaneshir97006@gmail.com
