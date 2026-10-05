@@ -38,30 +38,30 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Derek Kaneshiro — Principal Software Engineer',
+      title: 'Derek Kaneshiro — AI-Native Product Engineer',
       htmlAttrs: {
         lang: 'en',
       },
       meta: [
-        { name: 'description', content: 'Principal software engineer. Ten years owning a HIPAA-regulated platform serving 500,000+ patients, and the open-source AI evaluation framework Synthetic Test Fabric.' },
+        { name: 'description', content: 'AI-native product engineer. Two full-stack products launched as a single engineer, an open-source AI evaluation framework on NPM, and ten years on a HIPAA platform serving 500,000+ patients.' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'author', content: 'Derek Kaneshiro' },
         { name: 'robots', content: 'index, follow' },
-        { name: 'keywords', content: 'principal software engineer, C#, .NET, AI agents, LLM evaluation, MCP, HIPAA, TypeScript, Hillsboro Oregon, Portland developer' },
+        { name: 'keywords', content: 'AI-native product engineer, product engineer, principal software engineer, C#, .NET, AI agents, LLM evaluation, MCP, HIPAA, TypeScript, Hillsboro Oregon, Portland developer' },
 
         // Open Graph
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Mango Software' },
-        { property: 'og:title', content: 'Derek Kaneshiro — Principal Software Engineer' },
-        { property: 'og:description', content: 'Principal software engineer. Ten years owning a HIPAA-regulated platform serving 500,000+ patients, and the open-source AI evaluation framework Synthetic Test Fabric.' },
+        { property: 'og:title', content: 'Derek Kaneshiro — AI-Native Product Engineer' },
+        { property: 'og:description', content: 'AI-native product engineer. Two full-stack products launched as a single engineer, an open-source AI evaluation framework on NPM, and ten years on a HIPAA platform serving 500,000+ patients.' },
         { property: 'og:url', content: 'https://mangosoft.co' },
         { property: 'og:image', content: 'https://mangosoft.co/og-image.png' },
         { property: 'og:locale', content: 'en_US' },
 
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Derek Kaneshiro — Principal Software Engineer' },
-        { name: 'twitter:description', content: 'Principal software engineer. Ten years owning a HIPAA-regulated platform serving 500,000+ patients, and the open-source AI evaluation framework Synthetic Test Fabric.' },
+        { name: 'twitter:title', content: 'Derek Kaneshiro — AI-Native Product Engineer' },
+        { name: 'twitter:description', content: 'AI-native product engineer. Two full-stack products launched as a single engineer, an open-source AI evaluation framework on NPM, and ten years on a HIPAA platform serving 500,000+ patients.' },
         { name: 'twitter:image', content: 'https://mangosoft.co/og-image.png' },
 
         // Additional SEO
@@ -96,7 +96,7 @@ gtag('config', 'G-Z8K1KDWS00');`,
                 '@type': 'Person',
                 '@id': 'https://mangosoft.co/#person',
                 'name': 'Derek Kaneshiro',
-                'jobTitle': 'Principal Software Engineer',
+                'jobTitle': 'AI-Native Product Engineer',
                 'url': 'https://mangosoft.co',
                 'email': 'derek@mangosoft.co',
                 'address': {

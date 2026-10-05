@@ -7,25 +7,25 @@
   },
   "hero": {
     "title1": "Derek Kaneshiro",
-    "title2": "Principal Software Engineer",
-    "subtitle": "Ten years owning a HIPAA-regulated platform serving 500,000+ patients, where a wrong answer was reportable rather than embarrassing. I also build the AI agent and evaluation infrastructure my own development runs on.",
-    "subtitle2": "",
+    "title2": "AI-Native Product Engineer",
+    "subtitle": "I build products end to end, from idea to shipped, and AI is how I do it.",
+    "subtitle2": "Shipped to real users. Quality gated on measured behavior.",
     "cta": "Read the code",
-    "seeWork": "See what I've built",
+    "seeWork": "See what I've shipped",
     "stats": {
-      "shipped": "Years Owning a HIPAA Platform",
-      "patients": "Patients Served",
-      "infra": "Lines of AI Infrastructure",
-      "oss": "Open-Source AI Framework"
+      "products": "Full-Stack Products, One Engineer",
+      "oss": "Open-Source AI Eval Framework",
+      "years": "Years on a HIPAA Platform",
+      "patients": "Patients Served"
     }
   },
   "about": {
     "title": "About",
     "titleHighlight": "Derek",
-    "p1": "I'm Derek Kaneshiro, a principal software engineer in Hillsboro, Oregon. For ten years I owned the HIPAA-regulated platform behind Zimmer Biomet's orthopedic recovery products — 500,000+ patients, PHI in every request, accountable for its reliability throughout.",
-    "p2": "I built the rules-driven engine that decides what each patient receives on each day of recovery; it became core product IP and still serves them. I replaced scattered per-endpoint permission checks with one centralized, auditable authorization model, because an auditor was going to ask who could write what and the architecture had to answer. And I led the R&D that prototyped Claude and Semantic Kernel integrations for that environment, taken through Architecture, Cloud, Security and risk governance.",
-    "p3": "I also build the AI agent infrastructure my own development runs on: narrow composable sub-agents, MCP tool surfaces, and multi-provider routing selected per workload on accuracy, latency and cost — plus an evaluation framework I open-sourced, because AI systems degrade quietly and “it seems better” is not a measurement.",
-    "p4": "Earlier I directed 30 engineers building the practice-management system for 750+ veterinary hospitals.",
+    "p1": "I'm Derek Kaneshiro, an AI-native product engineer in Hillsboro, Oregon. As a single engineer I've built and launched two full-stack products, BlueSkil and Redy: each has a mobile app, a web app, an API, a CLI and an MCP server.",
+    "p2": "The method is what lets one engineer do that. Narrow AI agents handle the recurring work (tests, code review, schema validation, deploy gating), the architecture lives in versioned context files reviewed like code, and every deploy is gated on measured behavior rather than on whether the diff looks right. I open-sourced the evaluation layer, Synthetic Test Fabric, so you don't have to take my word for it.",
+    "p3": "Before this, I spent ten years as principal engineer on Zimmer Biomet's patient-recovery platform: HIPAA-regulated, 500,000+ patients. I built the rules engine behind every patient's daily care plan, alongside the clinicians who used it, and led the R&D that carried our first LLM prototypes through security and risk review. That decade is why speed doesn't come at the cost of quality in my work.",
+    "p4": "What I'm looking for: a product-engineer seat, full-time or a scoped engagement, on a small team that wants to build this way, with real ownership and AI in how the work gets done, not just in the product. Any domain.",
     "techStack": "Tech Stack",
     "frontend": "Frontend",
     "backend": "Backend",
@@ -35,29 +35,29 @@
   "portfolio": {
     "title": "What I've",
     "titleHighlight": "Built",
-    "subtitle": "The infrastructure is the point; the platforms are the evidence.",
-    "builtWith": "Built with Claude, OpenAI, Gemini and Grok as development partners.",
+    "subtitle": "Two full-stack products shipped to real users, and the open-source framework that gates every deploy on measured behavior.",
+    "builtWith": "Built end to end as a single engineer, with Claude, OpenAI, Gemini and Grok in every phase.",
     "blueskil": {
-      "tagline": "Apprenticeship marketplace for skilled trades",
-      "description": "Connecting verified employers with apprentices in construction and skilled trades. Full hiring lifecycle: job posting, applications, interviews, Stripe payments, engagement ratings, and referral systems."
+      "tagline": "Career platform matching skilled workers with verified employers",
+      "description": "Employers post a role and get an AI-ranked shortlist with the reasons behind every score. Matching runs on one fixed, published, versioned formula: the AI explains each match, and people make every hiring decision. Nine agents screen applicants, match roles and re-check postings around the clock, and users can connect their account to Claude or ChatGPT over MCP."
     },
     "redy": {
-      "tagline": "Digital vault + EU DPP compliance platform",
-      "description": "Consumer app for managing receipts, warranties, and certificates. B2B platform for EU Digital Product Passport compliance ahead of the 2027 mandate. Document capture, OCR, sharing, and compliance reporting."
+      "tagline": "Supplier-evidence workflow for EU Digital Product Passports",
+      "description": "B2B compliance portal for EU Digital Product Passports: GS1 Digital Link resolution, W3C Verifiable Credential verification, and the independent backup-of-record the regulation requires. Plus a consumer document vault with capture, OCR and secure sharing, a CLI and an MCP server."
     },
     "toknize": {
       "tagline": "One API to tokenize anything, on any chain",
       "description": "Blockchain-agnostic tokenization platform. Create, manage, and transfer digital asset records with full provenance tracking across Sui, EVM, and Solana chains. Fractional ownership and multi-sig workflows."
     },
     "stf": {
-      "tagline": "Open-source evaluation framework for AI systems",
-      "description": "Generates synthetic users, simulates behaviour, executes flows, scores results against custom quality metrics, and gates deploys on the outcome. Ships fab-mcp, an MCP server exposing every command as a native agent tool. MIT-licensed."
+      "tagline": "Open-source evaluation framework for AI-built software",
+      "description": "Generates synthetic users, runs real flows, scores behavior against custom quality metrics and gates deploys on the score. Ships fab-mcp, an MCP server exposing every command as a native agent tool. MIT-licensed, on NPM."
     }
   },
   "contact": {
     "title": "Get in",
     "titleHighlight": "Touch",
-    "subtitle": "Questions about the work, or just want to say hello — send a note.",
+    "subtitle": "Building a small team that works this way? I'd like to talk.",
     "name": "Name",
     "namePlaceholder": "Your name",
     "email": "Email",
