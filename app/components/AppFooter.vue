@@ -18,7 +18,7 @@ const currentYear = new Date().getFullYear()
         <!-- Links -->
         <div class="flex items-center gap-6">
           <a
-            href="https://www.linkedin.com/in/derek-kaneshiro-a116513a8/"
+            href="https://www.linkedin.com/in/dkanes/"
             target="_blank"
             class="text-slate-500 hover:text-mango-orange dark:text-slate-400 transition-colors duration-200"
           >

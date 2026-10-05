@@ -3,12 +3,12 @@ const { t } = useI18n()
 
 const projects = computed(() => [
   {
-    title: 'Synthetic Test Fabric',
-    tagline: t('portfolio.stf.tagline'),
-    description: t('portfolio.stf.description'),
-    tech: ['TypeScript', 'MCP', 'Node.js', 'MIT'],
-    status: 'Open source',
-    link: 'https://github.com/kaneshir/synthetic-test-fabric',
+    title: 'BlueSkil',
+    tagline: t('portfolio.blueskil.tagline'),
+    description: t('portfolio.blueskil.description'),
+    tech: ['Flutter', 'NestJS', 'Nuxt', 'Firebase', 'Stripe', 'BigQuery'],
+    status: 'Live',
+    link: 'https://blueskil.com',
   },
   {
     title: 'Redy',
@@ -19,12 +19,12 @@ const projects = computed(() => [
     link: 'https://redy.co',
   },
   {
-    title: 'BlueSkil',
-    tagline: t('portfolio.blueskil.tagline'),
-    description: t('portfolio.blueskil.description'),
-    tech: ['Flutter', 'NestJS', 'Nuxt', 'Firebase', 'Stripe', 'BigQuery'],
-    status: 'In development',
-    link: 'https://blueskil.com',
+    title: 'Synthetic Test Fabric',
+    tagline: t('portfolio.stf.tagline'),
+    description: t('portfolio.stf.description'),
+    tech: ['TypeScript', 'MCP', 'Node.js', 'MIT'],
+    status: 'Open source',
+    link: 'https://github.com/kaneshir/synthetic-test-fabric',
   },
   {
     title: 'Toknize',
