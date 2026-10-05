@@ -35,20 +35,20 @@ async function generateOgImage() {
 
       <!-- Main text -->
       <text x="600" y="240" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="800" fill="url(#mango)">
-        Principal Software Engineer
+        AI-Native Product Engineer
       </text>
       <text x="600" y="330" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="700" fill="white">
-        for the Modern Era
+        Built end to end. AI in every phase.
       </text>
 
       <!-- Subtitle -->
       <text x="600" y="420" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="28" fill="#94a3b8">
-        Ten years owning a HIPAA platform serving 500,000+ patients
+        Two full-stack products shipped as a single engineer
       </text>
 
       <!-- Brand -->
       <text x="600" y="540" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="600" fill="url(#mango)">
-        MANGO SOFTWARE
+        DEREK KANESHIRO
       </text>
 
       <!-- URL -->

@@ -7,25 +7,25 @@
   },
   "hero": {
     "title1": "Derek Kaneshiro",
-    "title2": "Ingeniero de Software Principal",
-    "subtitle": "Diez años a cargo de una plataforma regulada por HIPAA que atiende a más de 500.000 pacientes, donde una respuesta incorrecta era reportable, no simplemente incómoda. También construyo la infraestructura de agentes de IA y evaluación sobre la que corre mi propio desarrollo.",
-    "subtitle2": "",
+    "title2": "Ingeniero de Producto Nativo en IA",
+    "subtitle": "Construyo productos de principio a fin, de la idea al lanzamiento, y la IA es cómo lo hago.",
+    "subtitle2": "En manos de usuarios reales. Calidad validada con comportamiento medido.",
     "cta": "Ver el código",
-    "seeWork": "Ver lo que he construido",
+    "seeWork": "Ver lo que he lanzado",
     "stats": {
-      "shipped": "Años a Cargo de una Plataforma HIPAA",
-      "patients": "Pacientes Atendidos",
-      "infra": "Líneas de Infraestructura de IA",
-      "oss": "Framework de IA de Código Abierto"
+      "products": "Productos Full-Stack, Un Solo Ingeniero",
+      "oss": "Framework de Evaluación de IA de Código Abierto",
+      "years": "Años en una Plataforma HIPAA",
+      "patients": "Pacientes Atendidos"
     }
   },
   "about": {
     "title": "Sobre",
     "titleHighlight": "Derek",
-    "p1": "Soy Derek Kaneshiro, ingeniero de software principal en Hillsboro, Oregón. Durante diez años estuve a cargo de la plataforma regulada por HIPAA detrás de los productos de recuperación ortopédica de Zimmer Biomet — más de 500.000 pacientes, datos de salud protegidos en cada petición, y yo responsable de su fiabilidad.",
-    "p2": "Construí el motor de reglas que decide qué recibe cada paciente en cada día de su recuperación; se convirtió en propiedad intelectual central del producto y sigue en uso. Reemplacé las comprobaciones de permisos dispersas por un único modelo de autorización centralizado y auditable, porque un auditor iba a preguntar quién podía escribir qué y la arquitectura tenía que responder. Y dirigí la I+D que prototipó integraciones de Claude y Semantic Kernel para ese entorno, pasando por revisión de Arquitectura, Cloud, Seguridad y gestión de riesgos.",
-    "p3": "También construyo la infraestructura de agentes de IA sobre la que corre mi propio desarrollo: subagentes acotados y componibles, superficies de herramientas MCP y enrutamiento multiproveedor elegido por carga de trabajo según precisión, latencia y coste — además de un framework de evaluación que publiqué como código abierto, porque los sistemas de IA se degradan en silencio y «parece que va mejor» no es una medición.",
-    "p4": "Antes dirigí a 30 ingenieros construyendo el sistema de gestión para más de 750 hospitales veterinarios.",
+    "p1": "Soy Derek Kaneshiro, ingeniero de producto nativo en IA en Hillsboro, Oregón. Como único ingeniero he construido y lanzado dos productos full-stack, BlueSkil y Redy: cada uno tiene app móvil, app web, API, CLI y servidor MCP.",
+    "p2": "El método es lo que permite a un solo ingeniero hacerlo. Agentes de IA acotados se encargan del trabajo recurrente (tests, revisión de código, validación de esquemas, control de despliegues), la arquitectura vive en archivos de contexto versionados que se revisan como código, y cada despliegue se valida con comportamiento medido, no con si el diff parece correcto. Publiqué la capa de evaluación, Synthetic Test Fabric, como código abierto para que no tengas que creerme sin más.",
+    "p3": "Antes, pasé diez años como ingeniero principal en la plataforma de recuperación de pacientes de Zimmer Biomet: regulada por HIPAA, más de 500.000 pacientes. Construí el motor de reglas detrás del plan de cuidados diario de cada paciente, junto a los clínicos que lo usaban, y dirigí la I+D que llevó nuestros primeros prototipos de LLM a través de la revisión de seguridad y riesgos. Esa década es la razón por la que, en mi trabajo, la velocidad no se paga con calidad.",
+    "p4": "Lo que busco: un puesto de ingeniero de producto, a tiempo completo o como proyecto acotado, en un equipo pequeño que quiera construir así, con responsabilidad real y la IA en cómo se hace el trabajo, no solo en el producto. Cualquier sector.",
     "techStack": "Stack Tecnológico",
     "frontend": "Frontend",
     "backend": "Backend",
@@ -35,29 +35,29 @@
   "portfolio": {
     "title": "Lo que he",
     "titleHighlight": "Construido",
-    "subtitle": "La infraestructura es lo importante; las plataformas son la evidencia.",
-    "builtWith": "Construido con Claude, OpenAI, Gemini y Grok como socios de desarrollo.",
+    "subtitle": "Dos productos full-stack en manos de usuarios reales, y el framework de código abierto que valida cada despliegue con comportamiento medido.",
+    "builtWith": "Construido de principio a fin por un solo ingeniero, con Claude, OpenAI, Gemini y Grok en cada fase.",
     "blueskil": {
-      "tagline": "Marketplace de aprendizaje para oficios especializados",
-      "description": "Conectando empleadores verificados con aprendices en construcción y oficios especializados. Ciclo completo de contratación: publicación de empleos, aplicaciones, entrevistas, pagos con Stripe, calificaciones y sistemas de referidos."
+      "tagline": "Plataforma de empleo que conecta trabajadores cualificados con empleadores verificados",
+      "description": "Los empleadores publican un puesto y reciben una lista de candidatos ordenada por IA, con las razones detrás de cada puntuación. El emparejamiento usa una única fórmula fija, publicada y versionada: la IA explica cada coincidencia y las personas toman cada decisión de contratación. Nueve agentes filtran candidatos, emparejan puestos y revisan ofertas a todas horas, y los usuarios pueden conectar su cuenta a Claude o ChatGPT mediante MCP."
     },
     "redy": {
-      "tagline": "Bóveda digital + plataforma de cumplimiento DPP de la UE",
-      "description": "App para consumidores para gestionar recibos, garantías y certificados. Plataforma B2B para cumplimiento del Pasaporte Digital de Productos de la UE antes del mandato 2027. Captura de documentos, OCR, compartición e informes de cumplimiento."
+      "tagline": "Flujo de evidencias de proveedores para el Pasaporte Digital de Producto de la UE",
+      "description": "Portal B2B de cumplimiento para el Pasaporte Digital de Producto de la UE: resolución de GS1 Digital Link, verificación de Credenciales Verificables W3C y la copia de respaldo independiente que exige la normativa. Además, una bóveda de documentos para consumidores con captura, OCR y compartición segura, una CLI y un servidor MCP."
     },
     "toknize": {
       "tagline": "Una API para tokenizar cualquier cosa, en cualquier blockchain",
       "description": "Plataforma de tokenización agnóstica de blockchain. Crea, gestiona y transfiere registros de activos digitales con seguimiento completo de procedencia en cadenas Sui, EVM y Solana. Propiedad fraccionada y flujos multi-firma."
     },
     "stf": {
-      "tagline": "Framework de evaluación de código abierto para sistemas de IA",
-      "description": "Genera usuarios sintéticos, simula comportamiento, ejecuta flujos, puntúa resultados contra métricas de calidad personalizadas y bloquea despliegues según el resultado. Incluye fab-mcp, un servidor MCP que expone cada comando como herramienta nativa para agentes. Licencia MIT."
+      "tagline": "Framework de evaluación de código abierto para software construido con IA",
+      "description": "Genera usuarios sintéticos, ejecuta flujos reales, puntúa el comportamiento contra métricas de calidad personalizadas y bloquea despliegues según la puntuación. Incluye fab-mcp, un servidor MCP que expone cada comando como herramienta nativa para agentes. Licencia MIT, en NPM."
     }
   },
   "contact": {
     "title": "Ponte en",
     "titleHighlight": "Contacto",
-    "subtitle": "¿Preguntas sobre el trabajo, o simplemente quieres saludar? Envíame un mensaje.",
+    "subtitle": "¿Tienes un equipo pequeño que quiere trabajar así? Me encantaría hablar.",
     "name": "Nombre",
     "namePlaceholder": "Tu nombre",
     "email": "Correo Electrónico",

@@ -33,31 +33,31 @@ const { t } = useI18n()
 
         <!-- CTAs -->
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="https://github.com/kaneshir/synthetic-test-fabric" target="_blank" rel="noopener" class="btn-primary">
-            {{ t('hero.cta') }}
-          </a>
-          <a href="#portfolio" class="btn-secondary">
+          <a href="#portfolio" class="btn-primary">
             {{ t('hero.seeWork') }}
+          </a>
+          <a href="https://github.com/kaneshir/synthetic-test-fabric" target="_blank" rel="noopener" class="btn-secondary">
+            {{ t('hero.cta') }}
           </a>
         </div>
 
         <!-- Stats -->
         <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold gradient-text">10</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.shipped') }}</div>
-          </div>
-          <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold gradient-text">500K+</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.patients') }}</div>
-          </div>
-          <div class="text-center">
-            <div class="text-3xl md:text-4xl font-bold gradient-text">200K</div>
-            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.infra') }}</div>
+            <div class="text-3xl md:text-4xl font-bold gradient-text">2</div>
+            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.products') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold gradient-text">1</div>
             <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.oss') }}</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl md:text-4xl font-bold gradient-text">10</div>
+            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.years') }}</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl md:text-4xl font-bold gradient-text">500K+</div>
+            <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">{{ t('hero.stats.patients') }}</div>
           </div>
         </div>
       </div>
